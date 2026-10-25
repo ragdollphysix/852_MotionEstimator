@@ -3,29 +3,41 @@
 #####################################################################
 
 # Setup library paths
-set search_path "./results/i2c_master_top.dlib \
+set search_path "./results/top.dlib \
                  ./common/ndm/saed14rvt_frame_timing.ndm"
 
-set link_path "./common/liberty/saed14rvt_ff0p88v125c.db \
-               ./common/liberty/saed14rvt_ss0p72vm40c.db \
-               ./common/liberty/saed14rvt_tt0p8v25c.db"
+# Parasitic corner -> matching liberty, same pairing as setup/mcmm_setup.tcl
+# (Fast = ff + minTLU, Typical = tt + nomTLU, Slow = ss + maxTLU)
+set corners {
+    nomTLU_25   saed14rvt_tt0p8v25c.db
+    minTLU_125  saed14rvt_ff0p88v125c.db
+    maxTLU_-40  saed14rvt_ss0p72vm40c.db
+}
 
-# Read and link the design
-read_verilog ./results/i2c_master_top.v
-current_design i2c_master_top
-link_design
+# Run STA for each corner, linking cells to the matching library only
+foreach {spef lib} ${corners} {
 
-# Read timing constraints
-read_sdc ./results/i2c_master_top.sdc
+    remove_design -all
+    set link_path "* ./common/liberty/${lib}"
 
-# Define parasitic corners
-set spefs {nomTLU_25 minTLU_125 maxTLU_-40}
+    # Read and link the design
+    read_verilog ./results/top.v
+    current_design top
+    link_design
 
-# Run STA for each parasitic corner
-foreach spef ${spefs} {
+    # Read timing constraints, adapted from FC's SDC (written from FUNC_Slow) for this corner:
+    #  - FC writes SDC 2.2; this PrimeTime release accepts up to 2.1 (all commands are 2.1-compatible)
+    #  - drop set_operating_conditions so the linked library's own conditions apply
+    #  - point library-qualified references (set_driving_cell) at this corner's library
+    set libname [file rootname ${lib}]
+    exec sed -e {s/^set sdc_version 2.2$/set sdc_version 2.1/} \
+             -e {/^set_operating_conditions/,/[^\\]$/d} \
+             -e "s/saed14rvt_ss0p72vm40c\\.db:saed14rvt_ss0p72vm40c/${libname}.db:${libname}/g" \
+             ./results/top.sdc > ./results/top_pt_${spef}.sdc
+    read_sdc ./results/top_pt_${spef}.sdc
 
     # Read extracted parasitics and update timing
-    read_parasitics ./results/i2c_master_top.spef.${spef}.spef
+    read_parasitics ./results/top.spef.${spef}.spef
     update_timing
 
     # Generate timing reports
@@ -42,11 +54,7 @@ foreach spef ${spefs} {
     }
 
     # Save PrimeTime session
-    save_session ./pt_session/i2c_master_top_${spef}_session
-
-    # Remove parasitics before analyzing the next corner
-    remove_annotated_parasitics
+    save_session ./pt_session/top_${spef}_session
 }
 
 exit
-

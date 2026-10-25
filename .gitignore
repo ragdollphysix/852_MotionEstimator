@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------
+# VCS simulation outputs
+# ---------------------------------------------------------------
+vcs/simv
+vcs/simv.daidir/
+vcs/csrc/
+vcs/*.fsdb
+vcs/*.vpd
+vcs/*.dump
+vcs/*.log
+vcs/*.key
+vcs/novas*
+vcs/verdi*
+vcs/make_test.out
+vcs/.orig/
+
+# ---------------------------------------------------------------
+# Fusion Compiler / PrimeTime workspace
+# Track only the Makefile, scripts, setup and our own design inputs.
+# Everything else is generated, or comes from the course PDK
+# (/packages/synopsys/setup/Fusion_Compiler_setup), which must not be
+# redistributed: see README.md for how to restore it.
+# ---------------------------------------------------------------
+fc/*
+!fc/Makefile
+!fc/scripts/
+!fc/setup/
+
+!fc/common/
+fc/common/*
+!fc/common/sdc/
+fc/common/sdc/*
+!fc/common/sdc/top.sdc
+!fc/common/rtl/
+fc/common/rtl/*
+!fc/common/rtl/verilog/
+fc/common/rtl/verilog/*
+!fc/common/rtl/verilog/top.v

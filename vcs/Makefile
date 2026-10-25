@@ -1,6 +1,6 @@
 # Makefile for vcs simulation
 RTL= ./top.v
-TB = ./top_tb.v
+TB = ./top_tb.v ./mem_models.v
 SEED = 1
 
 default: test 

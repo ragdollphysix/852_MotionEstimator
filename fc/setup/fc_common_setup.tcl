@@ -2,7 +2,7 @@
 #####		Common Setup Script for Fusion Compiler		#####
 #####################################################################
 
-set DESIGN_NAME		"i2c_master_top"		; # set design name
+set DESIGN_NAME		"top"		; # set design name
 set DESIGN_LIBRARY	"${DESIGN_NAME}.dlib"		; # set design library name
 set WORK_DIR		"[pwd]"				; # Get current working directory
 

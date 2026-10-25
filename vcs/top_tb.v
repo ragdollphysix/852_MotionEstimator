@@ -42,7 +42,9 @@ module top_testbench ( ) ;
 		.R(R),
 		.S1(S1),
 		.S2(S2),
-		.completed(completed));
+		.completed(completed),
+		.VDD(1'b1),
+		.VSS(1'b0));
 
 //Referesen and search memories
 

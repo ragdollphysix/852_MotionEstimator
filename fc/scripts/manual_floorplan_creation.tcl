@@ -35,7 +35,7 @@ set_block_pin_constraints -self \
 	-length 0.11 
 	
 set_individual_pin_constraints \
-	-ports [get_ports wb_clk_i] \
+	-ports [get_ports clock] \
 	-sides 2 \
 	-allowed_layers M5
 	
