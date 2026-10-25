@@ -85,7 +85,3 @@ The first commit holds the files as provided (course zip + tutorial scripts). Th
 - Tutorial design and clock names (`i2c_master_top`, `wb_clk_i`) replaced in the scripts.
 - `sta_post_layout.tcl`: each corner links its own library. The tutorial version links every corner to the fast library. It also converts FC's SDC 2.2 to the 2.1 that this PrimeTime accepts.
 - `pt_eco_run.tcl`, `fc_apply_eco.tcl`: new; ECO cells are `dont_touch` so `route_opt` doesn't undo the fix.
-
-## AI assistance disclosure
-
-AI use is permitted for this project with disclosure. Claude (Anthropic) made the file changes in the second commit under review, ran the tool flow on the class server, and diagnosed the SDC, PrimeTime library-linking and ECO issues.
