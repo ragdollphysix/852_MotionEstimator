@@ -1,0 +1,1 @@
+../rtl/verilog/top.v tb_top.sv

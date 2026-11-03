@@ -93,7 +93,8 @@ module control (clock, start, S1S2mux, newDist, CompStart, PEready, VectorX, Vec
 	output [9:0] AddressS1, AddressS2;
 	output reg completed;
 
-	parameter count_complete = 16*(16*16) + 15; //4111
+	parameter count_complete = 16*(16*16) + 16; //4111 -> 4112, PEready stuck at 1 @ 4111
+	// Best distortion/MotionX,Y would be wrong with PEready stuck at 1 after complete
 
 	reg [15:0] S1S2mux, newDist, PEready;
 	reg CompStart;
@@ -130,7 +131,7 @@ module control (clock, start, S1S2mux, newDist, CompStart, PEready, VectorX, Vec
 		VectorX = count[3:0] - 8; 
 		VectorY = count[11:8] - 9;
 
-		completed = (count[12:0] == count_complete); //4111
+		completed = (count[12:0] == count_complete); //4111 -> 4112
 	    end
 endmodule
 
