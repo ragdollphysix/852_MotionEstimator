@@ -1,0 +1,12 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type min
+        -max_paths 1
+        -report_by design
+Design : top
+Version: X-2025.06-SP2
+Date   : Tue Nov  3 12:52:11 2026
+****************************************
+No paths.
+1

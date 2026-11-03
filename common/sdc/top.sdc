@@ -1,9 +1,9 @@
 
-set PERIOD  1
-set CLOCK_NAME wb_clk_i
-set TRANSITION 0.53
+set PERIOD  1.923
+set CLOCK_NAME clock
+set TRANSITION 0.55
 set TRANSITION 0.2
-set UNCERTAINTY 0.3
+set UNCERTAINTY 0.2
 
 create_clock -period $PERIOD -name $CLOCK_NAME [get_ports $CLOCK_NAME]
 

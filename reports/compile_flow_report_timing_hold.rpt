@@ -1,0 +1,47 @@
+Warning: Scenario FUNC_Slow is not configured for hold analysis: skipping. (UIC-058)
+****************************************
+Report : timing
+        -path_type full
+        -delay_type min
+        -max_paths 1
+        -report_by design
+Design : top
+Version: X-2025.06-SP2
+Date   : Tue Nov  3 13:07:40 2026
+****************************************
+
+  Startpoint: pe_u/pe12/Rpipe_reg[0] (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: pe_u/pe13/Rpipe_reg[0] (rising edge-triggered flip-flop clocked by clock)
+  Mode: FUNC
+  Corner: Typical
+  Scenario: FUNC_Typical
+  Path Group: clock
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+
+  pe_u/pe12/Rpipe_reg[0]/CK (SAEDRVT14_FDP_V2_0P5)
+                                                   0.00      0.00 r
+  pe_u/pe12/Rpipe_reg[0]/Q (SAEDRVT14_FDP_V2_0P5)
+                                                   0.05      0.05 f
+  pe_u/pe13/Rpipe_reg[0]/D (SAEDRVT14_FDP_V2_0P5)
+                                                   0.00      0.05 f
+  data arrival time                                          0.05
+
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  pe_u/pe13/Rpipe_reg[0]/CK (SAEDRVT14_FDP_V2_0P5)
+                                                   0.00      0.00 r
+  library hold time                                0.03      0.03
+  data required time                                         0.03
+  ------------------------------------------------------------------------
+  data required time                                         0.03
+  data arrival time                                         -0.05
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.02
+
+
+1

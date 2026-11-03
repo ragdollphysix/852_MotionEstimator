@@ -1,0 +1,53 @@
+Warning: No valid clocks available in design 'top'. Setting clock frequency to 1 GHz. (POW-034)
+****************************************
+Report : power
+        -significant_digits 2
+Design : top
+Version: X-2025.06-SP2
+Date   : Tue Nov  3 12:52:10 2026
+****************************************
+Information: Activity for scenario default was cached, no propagation required. (POW-005)
+Mode: default
+Corner: default
+Scenario: default
+Voltage: 0.70
+Temperature: 125.00
+
+Voltage Unit         : 1V
+Capacitance Unit     : 1fF
+Time Unit            : 1ns
+Temperature Unit     : 1C
+Dynamic Power Unit   : 1pW
+Leakage Power Unit   : 1pW
+Warning: No valid clocks available in design 'top'. Setting clock frequency to 1 GHz. (POW-034)
+
+Switched supply net power scaling:
+scaling for leakage power
+
+Supply nets:
+VDD (power) probability 1.00 (default)
+VSS (ground) probability 1.00 (default)
+
+  Cell Internal Power    = 1.04e+08 pW (  4.6%)
+  Net Switching Power    = 2.17e+09 pW ( 95.4%)
+Total Dynamic Power      = 2.27e+09 pW (100.0%)
+
+Cell Leakage Power       = 4.41e+07 pW
+
+
+  Attributes
+  ----------
+      u  -  User defined power group
+
+Power Group         Internal Power        Switching Power          Leakage Power            Total Power    (   %  )    Attrs
+-----------------------------------------------------------------------------------------------------------------------------
+io_pad                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+memory                    0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+black_box                 0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+clock_network             0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+register                  0.00e+00               0.00e+00               0.00e+00               0.00e+00    (  0.0%)         
+sequential                0.00e+00               7.98e+08               0.00e+00               7.98e+08    ( 34.5%)         
+combinational             1.04e+08               1.37e+09               4.41e+07               1.52e+09    ( 65.5%)         
+-----------------------------------------------------------------------------------------------------------------------------
+Total                     1.04e+08 pW            2.17e+09 pW            4.41e+07 pW            2.31e+09 pW
+1

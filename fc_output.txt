@@ -1,0 +1,168 @@
+ 
+                              Fusion Compiler (TM)
+
+                Version X-2025.06-SP2 for linux64 - Oct 15, 2025
+                           Base build date 9/22/2025
+
+                    Copyright (c) 1988 - 2025 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+fc_shell> open_lib results/top.dlib
+Information: Loading library file '/home/924317222/Assignments/FinalProject/results/top.dlib' (FILE-007)
+Information: Loading library file '/home/924317222/Assignments/FinalProject/common/ndm/saed14rvt_frame_timing.ndm' (FILE-007)
+{top.dlib}
+fc_shell> list_blocks
+Lib top.dlib /home/924317222/Assignments/FinalProject/results/top.dlib tech current
+  ->  0 top.design Nov-03-12:52
+  -   0 top/compile.design Nov-03-13:07
+  -   0 top/inital_syn.design Nov-03-12:52
+3
+fc_shell> open_block top/compile.design
+Information: User units loaded from library 'saed14rvt_frame_timing' (LNK-040)
+Opening block 'top.dlib:top/compile.design' in edit mode
+{top.dlib:top/compile.design}
+fc_shell> start_gui
+Load ICV ICCII menu file: /packages/synopsys/ic_validator/W-2024.09-3/etc/tcl-u/Icc2Menu.tcl
+ + VUE INFO: Please click View->IC Validator VUE in LayoutWindow menu
+            to launch VUE.
+
+ + VUE INFO: Found a usable port: 2446
+
+fc_shell> link_block
+Using libraries: top.dlib saed14rvt_frame_timing
+Visiting block top.dlib:top/compile.design
+Information: Cellem using advance interpolation.
+Design 'top' was successfully linked.
+1
+fc_shell> report_timing
+Information: Timer using 1 threads
+Information: RDE mode is turned on. (TIM-124)
+Timing Update Started(Full_timing_update) : updateCount: 1 / Mem-peak : 685 MB / Date: Tue Nov  3 13:19:01 2026
+
+Timing Update Completed: Mem-peak: 685 MB / Date: Tue Nov  3 13:19:01 2026
+
+Information: Corner Slow: no PVT mismatches. (PVT-032)
+Information: Corner Typical: no PVT mismatches. (PVT-032)
+Information: Corner Fast: no PVT mismatches. (PVT-032)
+Information: The stitching and editing of coupling caps is turned OFF for design 'top.dlib:top/compile.design'. (TIM-125)
+Information: The RC mode used is RDE for design 'top'. (NEX-022)
+Information: Design Average RC for design top  (NEX-011)
+Information: r = 2.045109 ohm/um, via_r = 1.176629 ohm/cut, c = 0.133847 ff/um, cc = 0.000000 ff/um (X dir) (NEX-017)
+Information: r = 2.636499 ohm/um, via_r = 0.893956 ohm/cut, c = 0.131635 ff/um, cc = 0.000000 ff/um (Y dir) (NEX-017)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 2075, routed nets = 0, across physical hierarchy nets = 0, parasitics cached nets = 2075, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+************************************************************
+Timer Settings:
+Delay Calculation Style:                   auto
+Signal Integrity Analysis:                 disabled
+Timing Window Analysis:                    disabled
+Advanced Waveform Propagation:             disabled
+Variation Type:                            fixed_derate
+Clock Reconvergence Pessimism Removal:     disabled
+Advanced Receiver Model:                   disabled
+LLE:                                       disabled
+ML Acceleration:                           off
+Smart Arc Optimization:                    disabled
+************************************************************
+Warning: Scenario FUNC_Fast is not configured for setup analysis: skipping. (UIC-058)
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+Design : top
+Version: X-2025.06-SP2
+Date   : Tue Nov  3 13:19:02 2026
+****************************************
+
+  Startpoint: S2[0] (input port clocked by clock)
+  Endpoint: pe_u/pe15/Accumulate_reg[1] (rising edge-triggered flip-flop clocked by clock)
+  Mode: FUNC
+  Corner: Slow
+  Scenario: FUNC_Slow
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  S2[0] (in)                                       0.00      0.50 f
+  phfnr_buf_2157/X (SAEDRVT14_INV_0P5)             0.09      0.59 r
+  A1825/X (SAEDRVT14_OAI22_0P75)                   0.09      0.68 f
+  A1826/X (SAEDRVT14_ND2B_U_0P5)                   0.04      0.72 f
+  ctmTdsLR_1_2386/X (SAEDRVT14_AOI22_0P5)          0.04      0.75 r
+  ctmTdsLR_2_2387/X (SAEDRVT14_OA21_1)             0.02      0.77 r
+  ctmi_9057/X (SAEDRVT14_OAI22_0P5)                0.02      0.79 f
+  A1218/X (SAEDRVT14_OAI21_0P5)                    0.01      0.80 r
+  ctmi_9053/X (SAEDRVT14_OAI21_0P5)                0.01      0.82 f
+  A1240/X (SAEDRVT14_OAI21_0P5)                    0.01      0.83 r
+  ctmi_9049/X (SAEDRVT14_OAI21_0P5)                0.01      0.84 f
+  A1249/X (SAEDRVT14_OAI21_0P5)                    0.01      0.85 r
+  ctmi_9045/X (SAEDRVT14_OAI21_0P5)                0.02      0.87 f
+  A1830/X (SAEDRVT14_AN2_MM_0P5)                   0.02      0.88 f
+  A1831/X (SAEDRVT14_OAI22_0P5)                    0.10      0.98 r
+  phfnr_buf_2308/X (SAEDRVT14_INV_0P5)             0.12      1.10 f
+  A1466/X (SAEDRVT14_OAI22_0P5)                    0.05      1.15 r
+  A1923/CO (SAEDRVT14_ADDF_V1_0P5)                 0.05      1.20 r
+  RS_OP_381_42657_40159_J1/snps_ADD_318/U_14/S (SAEDRVT14_ADDF_V1_0P5)
+                                                   0.07      1.27 f
+  pe_u/pe15/add_81/U_5/CO (SAEDRVT14_ADDF_V1_0P5)
+                                                   0.04      1.31 f
+  pe_u/pe15/add_81/U_8/CO (SAEDRVT14_ADDF_V1_0P5)
+                                                   0.03      1.35 f
+  pe_u/pe15/add_81/U_10/CO (SAEDRVT14_ADDF_V1_0P5)
+                                                   0.03      1.38 f
+  pe_u/pe15/add_81/U_13/CO (SAEDRVT14_ADDF_V1_0P5)
+                                                   0.03      1.41 f
+  pe_u/pe15/add_81/U_15/CO (SAEDRVT14_ADDF_V1_0P5)
+                                                   0.04      1.46 f
+  ctmTdsLR_2_2410/X (SAEDRVT14_ND2_CDC_1)          0.01      1.47 r
+  ctmTdsLR_3_2411/X (SAEDRVT14_ND3_0P5)            0.03      1.50 f
+  ctmi_8982/X (SAEDRVT14_OA22_U_0P5)               0.03      1.53 f
+  pe_u/pe15/Accumulate_reg[1]/D (SAEDRVT14_FSDPQ_V2_0P5)
+                                                   0.00      1.53 f
+  data arrival time                                          1.53
+
+  clock clock (rise edge)                          1.92      1.92
+  clock network delay (ideal)                      0.00      1.92
+  pe_u/pe15/Accumulate_reg[1]/CK (SAEDRVT14_FSDPQ_V2_0P5)
+                                                   0.00      1.92 r
+  clock uncertainty                               -0.20      1.72
+  library setup time                               0.02      1.74
+  data required time                                         1.74
+  ------------------------------------------------------------------------
+  data required time                                         1.74
+  data arrival time                                         -1.53
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.21
+
+
+1
+fc_shell> stop_gui
+fc_shell> close_lib
+Closing library 'top.dlib'
+Information: The net parasitics of block top are cleared. (TIM-123)
+1
+fc_shell> exit
+Maximum memory usage for this session: 760.04 MB
+Maximum memory usage for this session including child processes: 760.04 MB
+CPU usage for this session:     51 seconds (  0.01 hours)
+Elapsed time for this session:   1275 seconds (  0.35 hours)
+Thank you for using Fusion Compiler.
+
