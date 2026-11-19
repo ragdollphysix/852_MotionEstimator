@@ -26,7 +26,7 @@ set_app_options    -name route.common.wire_on_grid_by_layer_name   -value {{M1 t
 set_app_options    -name route.common.via_on_grid_by_layer_name    -value {{VIA1 false} {VIA2 true}}
 
 #### Specify the driving cell
-set_driving_cell -lib_cell ${CELL_PREFIX}_BUF_16 [get_ports wb_clk_i] 
+set_driving_cell -lib_cell ${CELL_PREFIX}_BUF_16 [get_ports clock] 
 
 #### Define cell usage during CTS
 set_lib_cell_purpose -include cts \

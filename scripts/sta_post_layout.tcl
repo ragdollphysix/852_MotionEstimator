@@ -3,7 +3,7 @@
 #####################################################################
 
 # Setup library paths
-set search_path "./results/i2c_master_top.dlib \
+set search_path "./results/top.dlib \
                  ./common/ndm/saed14rvt_frame_timing.ndm"
 
 set link_path "./common/liberty/saed14rvt_ff0p88v125c.db \
@@ -11,12 +11,12 @@ set link_path "./common/liberty/saed14rvt_ff0p88v125c.db \
                ./common/liberty/saed14rvt_tt0p8v25c.db"
 
 # Read and link the design
-read_verilog ./results/i2c_master_top.v
-current_design i2c_master_top
+read_verilog ./results/top.v
+current_design top
 link_design
 
 # Read timing constraints
-read_sdc ./results/i2c_master_top.sdc
+read_sdc ./results/top.sdc
 
 # Define parasitic corners
 set spefs {nomTLU_25 minTLU_125 maxTLU_-40}
@@ -25,7 +25,7 @@ set spefs {nomTLU_25 minTLU_125 maxTLU_-40}
 foreach spef ${spefs} {
 
     # Read extracted parasitics and update timing
-    read_parasitics ./results/i2c_master_top.spef.${spef}.spef
+    read_parasitics ./results/top.spef.${spef}.spef
     update_timing
 
     # Generate timing reports
@@ -42,7 +42,7 @@ foreach spef ${spefs} {
     }
 
     # Save PrimeTime session
-    save_session ./pt_session/i2c_master_top_${spef}_session
+    save_session ./pt_session/top_${spef}_session
 
     # Remove parasitics before analyzing the next corner
     remove_annotated_parasitics

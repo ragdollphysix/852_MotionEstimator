@@ -1,0 +1,11 @@
+
+Input DRC Error Database.......... /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run
+Limit to Cell..................... top
+Maximum Errors/Command............ 1000
+
+SIGNOFF AUTOFIX DRC SUMMARY:
+
+        DRC NAME        :   TOTAL DRC   : PROCESSED DRC :  TARGETED DRC : REMAINING TARGETED DRC :   FIX RATE   : COMMENT
+M2.S.2: Minimum spacing :            1  :            1  :            1  :               0        :       100.0% : 
+M2.S.3: Minimum spacing :            1  :            1  :            1  :               0        :       100.0% : 
+TOTAL                   :               :               :            2  :               0        :       100.0% :

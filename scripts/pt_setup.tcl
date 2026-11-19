@@ -3,7 +3,7 @@
 #####################################################################
 
 # Setup library paths
-set search_path "./results/i2c_master_top.dlib \
+set search_path "./results/top.dlib \
                  ./common/ndm/saed14rvt_frame_timing.ndm"
 
 set link_path "./common/liberty/saed14rvt_ff0p88v125c.db \
@@ -11,7 +11,7 @@ set link_path "./common/liberty/saed14rvt_ff0p88v125c.db \
                ./common/liberty/saed14rvt_tt0p8v25c.db"
 
 
-set Design_name "i2c_master_top"	       
+set Design_name "top"	       
 # Read and link the design
 read_verilog ./results/${Design_name}.v
 current_design ${Design_name}

@@ -1,0 +1,47 @@
+Warning: Scenario FUNC_Slow is not configured for hold analysis: skipping. (UIC-058)
+****************************************
+Report : timing
+        -path_type full
+        -delay_type min
+        -max_paths 1
+        -report_by design
+Design : top
+Version: X-2025.06-SP2
+Date   : Wed Nov 18 23:51:02 2026
+****************************************
+
+  Startpoint: pe_u/pe11/Rpipe_reg[6] (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: pe_u/pe12/Rpipe_reg[6] (rising edge-triggered flip-flop clocked by clock)
+  Mode: FUNC
+  Corner: Fast
+  Scenario: FUNC_Fast
+  Path Group: clock
+  Path Type: min
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (propagated)                 0.01      0.01
+
+  pe_u/pe11/Rpipe_reg[6]/CK (SAEDRVT14_FDP_V2_0P5)
+                                                   0.00      0.01 r
+  pe_u/pe11/Rpipe_reg[6]/Q (SAEDRVT14_FDP_V2_0P5)
+                                                   0.02      0.04 f
+  pe_u/pe12/Rpipe_reg[6]/D (SAEDRVT14_FDP_V2_0P5)
+                                                   0.00      0.04 f
+  data arrival time                                          0.04
+
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (propagated)                 0.03      0.03
+  pe_u/pe12/Rpipe_reg[6]/CK (SAEDRVT14_FDP_V2_0P5)
+                                                   0.00      0.03 r
+  library hold time                                0.00      0.03
+  data required time                                         0.03
+  ------------------------------------------------------------------------
+  data required time                                         0.03
+  data arrival time                                         -0.04
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.00
+
+
+1

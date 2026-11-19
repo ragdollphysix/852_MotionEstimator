@@ -1,0 +1,2 @@
+[586111:2026-11-19 00:12:06.838] Starting service 'cluster' (Node ID=0, Host Name=mahmoodi.rcc.at.sfsu.edu)
+cluster: error creating IPv6 socket: Address family not supported by protocol

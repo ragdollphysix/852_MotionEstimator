@@ -18,3 +18,7 @@ novas*
 verdi*
 *.pdf
 common/liberty/
+signoff_drc_run/
+signoff_report_density_run/
+pt_session/
+work*/

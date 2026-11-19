@@ -1,0 +1,42 @@
+[586099:2026-11-19 00:12:06.782] Starting service 'mapper' (Node ID=0, Host Name=mahmoodi.rcc.at.sfsu.edu)
+[586099:2026-11-19 00:12:06.794] <Redis> 586102:C 19 Nov 2026 00:12:06.794 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[586099:2026-11-19 00:12:06.794] <Redis> 586102:C 19 Nov 2026 00:12:06.794 # Redis version=6.2.1, bits=64, commit=00000000, modified=0, pid=586102, just started
+[586099:2026-11-19 00:12:06.794] <Redis> 586102:C 19 Nov 2026 00:12:06.794 # Configuration loaded
+[586099:2026-11-19 00:12:06.795] <Redis> 586102:M 19 Nov 2026 00:12:06.795 * monotonic clock: POSIX clock_gettime
+[586099:2026-11-19 00:12:06.796] <Redis> 586102:M 19 Nov 2026 00:12:06.796 # Could not create server TCP listening socket ::*:36495: unable to bind socket, errno: 97
+[586099:2026-11-19 00:12:06.797] <Redis> 586102:M 19 Nov 2026 00:12:06.797 * Running mode=standalone, port=36495.
+[586099:2026-11-19 00:12:06.797] <Redis> 586102:M 19 Nov 2026 00:12:06.797 # Server initialized
+[586099:2026-11-19 00:12:06.797] <Redis> 586102:M 19 Nov 2026 00:12:06.797 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[586099:2026-11-19 00:12:06.797] <Redis> 586102:M 19 Nov 2026 00:12:06.797 * Ready to accept connections
+[586099:2026-11-19 00:12:06.797] Launched Redis process 586102 (Service Mapper) on address 127.0.0.1:36495. Attempting to connect...
+[586099:2026-11-19 00:12:06.798] Attempt #1 successfully connected to Redis at 127.0.0.1:36495
+[586099:2026-11-19 00:12:06.798] <Redis> 586102:M 19 Nov 2026 00:12:06.797 * The server is now ready to accept connections at /tmp/icv_OReaon/mapper
+[586099:2026-11-19 00:12:06.800] Wrote service info file to run_details/dp_work/service_info
+[586096:2026-11-19 00:12:14.472] [2026-11-19 00:12:06.824] Service 'launcher:0' registered on mahmoodi.rcc.at.sfsu.edu:40377
+[586111:2026-11-19 00:12:14.472] [2026-11-19 00:12:06.840] Service 'cluster' registered on mahmoodi.rcc.at.sfsu.edu:53287
+[586110:2026-11-19 00:12:14.472] [2026-11-19 00:12:06.840] Service 'license_manager' registered on mahmoodi.rcc.at.sfsu.edu:54109
+[586114:2026-11-19 00:12:14.472] [2026-11-19 00:12:06.842] Service 'dashboard_mail' registered on mahmoodi.rcc.at.sfsu.edu:44679
+[586113:2026-11-19 00:12:14.472] [2026-11-19 00:12:06.843] Service 'lock_manager' registered on mahmoodi.rcc.at.sfsu.edu:54949
+[586112:2026-11-19 00:12:14.472] [2026-11-19 00:12:06.850] Service 'hdb' registered on mahmoodi.rcc.at.sfsu.edu:59089
+[586143:2026-11-19 00:12:14.472] [2026-11-19 00:12:06.880] Service 'memory_manager' registered on mahmoodi.rcc.at.sfsu.edu:38543
+[586144:2026-11-19 00:12:14.473] [2026-11-19 00:12:06.880] Service 'cleanup' registered on mahmoodi.rcc.at.sfsu.edu:55307
+[586108:2026-11-19 00:12:14.473] [2026-11-19 00:12:10.349] Service 'add_host' registered on mahmoodi.rcc.at.sfsu.edu:39683
+[586247:2026-11-19 00:12:14.473] [2026-11-19 00:12:10.356] Per-host service 'worker_pool:mahmoodi.rcc.at.sfsu.edu' registered on mahmoodi.rcc.at.sfsu.edu:40291
+[586247:2026-11-19 00:12:14.473] [2026-11-19 00:12:10.356] Per-host service 'host_stats:mahmoodi.rcc.at.sfsu.edu' registered on mahmoodi.rcc.at.sfsu.edu:35203
+[586143:2026-11-19 00:12:14.473] [2026-11-19 00:12:14.417] Removing service 'memory_manager'
+[586108:2026-11-19 00:12:14.473] [2026-11-19 00:12:14.431] Removing service 'add_host'
+[586096:2026-11-19 00:12:14.473] [2026-11-19 00:12:14.458] Removing service 'launcher:0'
+[586113:2026-11-19 00:12:14.473] [2026-11-19 00:12:14.459] Removing service 'lock_manager'
+[586110:2026-11-19 00:12:14.473] [2026-11-19 00:12:14.459] Removing service 'license_manager'
+[586111:2026-11-19 00:12:14.473] [2026-11-19 00:12:14.460] Removing service 'cluster'
+[586112:2026-11-19 00:12:14.473] [2026-11-19 00:12:14.460] Removing service 'hdb'
+[586247:2026-11-19 00:12:14.473] [2026-11-19 00:12:14.461] Removing service 'worker_pool:mahmoodi.rcc.at.sfsu.edu'
+[586247:2026-11-19 00:12:14.473] [2026-11-19 00:12:14.461] Removing service 'host_stats:mahmoodi.rcc.at.sfsu.edu'
+[586114:2026-11-19 00:12:14.473] [2026-11-19 00:12:14.468] Removing service 'dashboard_mail'
+[586099:2026-11-19 00:12:14.474] Received signal 15 (Terminated). Exiting.
+[586099:2026-11-19 00:12:14.475] <Redis> 586102:M 19 Nov 2026 00:12:14.474 # User requested shutdown...
+[586099:2026-11-19 00:12:14.475] <Redis> 586102:M 19 Nov 2026 00:12:14.474 * Removing the unix socket file.
+[586099:2026-11-19 00:12:14.475] <Redis> 586102:M 19 Nov 2026 00:12:14.474 # Redis is now ready to exit, bye bye...
+[586099:2026-11-19 00:12:14.475] Pipe is closed from from Redis.
+[586099:2026-11-19 00:12:14.475] /tmp/icv_OReaon is removed
+[586099:2026-11-19 00:12:14.475] Service info file run_details/dp_work/service_info is removed.

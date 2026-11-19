@@ -1,0 +1,6 @@
+
+-------------------------------------------------------------------------------
+Rule: M2.S.2: Minimum spacing if metal width of one of lines > 0.058 and  their parallel run length > 0.15 must be 0.06	              1 error
+Rule: M2.S.3: Minimum spacing if metal width of one of lines > 0.06 and  their parallel run length > 0.2 must be 0.065	              1 error
+-------------------------------------------------------------------------------
+NOTE: TRANSLATE_ERROR_INST is ON

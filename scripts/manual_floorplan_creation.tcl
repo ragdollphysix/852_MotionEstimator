@@ -21,7 +21,7 @@ initialize_floorplan  \
 	-core_utilization 0.6 \
 	-core_offset 5 \
 	-shape R \
-	-side_ratio {2 1} \
+	-side_ratio {1 1} \
 	-flip_first_row true
 
 #### Set pin placement constraints
@@ -35,9 +35,9 @@ set_block_pin_constraints -self \
 	-length 0.11 
 	
 set_individual_pin_constraints \
-	-ports [get_ports wb_clk_i] \
-	-sides 2 \
-	-allowed_layers M5
+	-ports [get_ports clock] \
+	-sides 1 \
+	-allowed_layers M4
 	
 place_pins -self -ports ${ports}
 

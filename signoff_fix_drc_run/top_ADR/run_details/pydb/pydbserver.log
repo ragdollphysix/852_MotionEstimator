@@ -1,0 +1,100 @@
+
+                                  PYDB_Server 
+
+           Version W-2024.09-3 for linux64 - Oct 28, 2024 cl#10932488
+
+                    Copyright (c) 2007 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Listening for connections on port 37559
+PYDB_Server Started on host mahmoodi.rcc.at.sfsu.edu, Thu 11/19/2026 00:11:40
+Client mahmoodi.rcc.at.sfsu.edu(583826):25 connected (1 total client)
+Verified current licenses.
+Creating file:/home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/run_details/pydb/PYDB_top_ADR?nolock=1
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Client mahmoodi.rcc.at.sfsu.edu(584020):32 connected (2 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(584021):33 connected (3 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(584020):32 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(584020):32 disconnected (2 clients remain)
+Client mahmoodi.rcc.at.sfsu.edu(584020):32 connected (3 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(584021):33 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(584021):33 disconnected (2 clients remain)
+Client mahmoodi.rcc.at.sfsu.edu(584021):33 connected (3 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(584020):32 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(584020):32 disconnected (2 clients remain)
+Client mahmoodi.rcc.at.sfsu.edu(584020):32 connected (3 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(584020):32 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(584020):32 disconnected (2 clients remain)
+Client mahmoodi.rcc.at.sfsu.edu(584021):33 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(584021):33 disconnected (1 client remains)
+Client mahmoodi.rcc.at.sfsu.edu(584021):32 connected (2 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(584020):33 connected (3 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(584021):32 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(584021):32 disconnected (2 clients remain)
+Client mahmoodi.rcc.at.sfsu.edu(584021):32 connected (3 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(584020):33 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(584021):32 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(584020):33 disconnected (2 clients remain)
+Client mahmoodi.rcc.at.sfsu.edu(584021):32 disconnected (1 client remains)
+Generating /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/top_ADR.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+Flushing database cache
+  Flush Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.007 GB Unpooled=0.000 GB
+Shutdown requested by client mahmoodi.rcc.at.sfsu.edu(583826):25
+0 clients remain connected
+Client mahmoodi.rcc.at.sfsu.edu(583826):25 connection closed
+Overall server Time=0:00:02  User=0.02 Sys=0.03 Mem=0.001 GB SQLite=0.007 GB Unpooled=0.000 GB
+
+                                  PYDB_Server 
+
+           Version W-2024.09-3 for linux64 - Oct 28, 2024 cl#10932488
+
+                    Copyright (c) 2007 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Listening for connections on port 41927
+PYDB_Server Started on host mahmoodi.rcc.at.sfsu.edu, Thu 11/19/2026 00:11:45
+Client mahmoodi.rcc.at.sfsu.edu(584435):7 connected (1 total client)
+Verified current licenses.
+Opening file:/home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/run_details/pydb/PYDB_top_ADR?nolock=1 in read-write mode
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Shutdown requested by client mahmoodi.rcc.at.sfsu.edu(584435):7
+0 clients remain connected
+Client mahmoodi.rcc.at.sfsu.edu(584435):7 connection closed
+Overall server Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB SQLite=0.001 GB Unpooled=0.000 GB

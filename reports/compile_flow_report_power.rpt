@@ -3,7 +3,7 @@ Report : power
         -significant_digits 2
 Design : top
 Version: X-2025.06-SP2
-Date   : Tue Nov  3 13:07:39 2026
+Date   : Tue Nov 17 16:34:06 2026
 ****************************************
 Information: Activity propagation will be performed for scenario FUNC_Fast.
 Information: Doing activity propagation for mode 'FUNC' and corner 'Fast' with effort level 'medium'. (POW-024)

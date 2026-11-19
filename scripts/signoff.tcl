@@ -22,7 +22,7 @@ set FILLER_CELLS [get_object_name [sort_collection -descending \
 create_stdcell_fillers -lib_cells ${FILLER_CELLS} 
 
 # Remove placement blockage
-remove_placement_blockages -all
+#remove_placement_blockages -all
 
 create_stdcell_fillers -lib_cells ${FILLER_CELLS}
 
@@ -53,6 +53,10 @@ signoff_fix_drc
 save_block
 
 # Run ICV DRC to check the results 
+signoff_check_drc
+
+signoff_fix_drc
+save_block
 signoff_check_drc
 
 #### Metal Fill

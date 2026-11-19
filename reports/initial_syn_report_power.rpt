@@ -4,7 +4,7 @@ Report : power
         -significant_digits 2
 Design : top
 Version: X-2025.06-SP2
-Date   : Tue Nov  3 12:52:10 2026
+Date   : Tue Nov 17 16:29:16 2026
 ****************************************
 Information: Activity for scenario default was cached, no propagation required. (POW-005)
 Mode: default

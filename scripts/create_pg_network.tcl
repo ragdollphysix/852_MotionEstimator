@@ -49,7 +49,7 @@ compile_pg -strategies {M6_PG_Strategy} -via_rule VIA_NIL
 
 #### Create M7 Vertical PG Straps
 create_pg_mesh_pattern M7_PG \
-	-layers { {vertical_layer: M7}   {width: 0.2} {spacing: interleaving} {pitch: 4} {offset: 0.5} } 
+	-layers { {vertical_layer: M7}   {width: 0.24} {spacing: interleaving} {pitch: 4} {offset: 0.5} } 
 
 set_pg_strategy M7_PG_Strategy \
 	-core \

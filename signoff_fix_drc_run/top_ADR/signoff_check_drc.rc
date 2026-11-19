@@ -1,0 +1,16 @@
+/* ============================================ */
+/*   Environment setup for signoff_check_drc   */
+/* ============================================ */
+#define SNPSINDESIGN 
+#define USE_ICC2 
+#define RESOLUTION_OPTIONS_LAYOUT_RESOLUTION_CHECK {}
+#define SNPSINDESIGN_DRC_RUN_DIRECTORY /home/924317222/Assignments/FinalProject
+#define NDM_OPTIONS_DRC_BLACK_BOX_CELLS {"*","!top_ADR"}
+#define NDM_OPTIONS_MISSING_CELL ABORT
+#define NDM_OPTIONS_INSTANCE_NAMES DISCARD
+#define NDM_OPTIONS_INTERNAL_DESIGNS {{use=FILL_USE,read_from=ALL,out_of_date=DISCARD}}
+#define NDM_OPTIONS_MERGE_BLOCKAGE_WITH_LAYER { views={DESIGN_VIEW,FRAME_VIEW}, cells={"*","!"+get_top_cell()} }
+#define NDM_OPTIONS_SEARCH_PATH "/home/924317222/Assignments/FinalProject /packages/synopsys/fc/X-2025.06-SP2a/dw/syn_ver /packages/synopsys/fc/X-2025.06-SP2a/dw/sim_ver /packages/synopsys/fc/X-2025.06-SP2a/libraries/syn  ."
+#define INCREMENTAL_OPTIONS_WINDOW_AMBIT 1.0
+#define INCREMENTAL_OPTIONS_WINDOW_ERROR_FILTER KEEP_INTERACTING
+#define ERROR_OPTIONS_ERROR_LIMIT_PER_CHECK 1000

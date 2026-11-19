@@ -58,13 +58,13 @@ report_congestion
 report_utilization
 collect_reports unified_flow
 
-#### Placement blockages 
-create_placement_blockage \
-	-boundary {{7.9600 8.0000} {7.9600 14.0000} {15.9520 14.0000} {15.9520 8.0000}} \
-	-type hard 
-
-check_legality 
-legalize_placement -incremental
+#### Placement blockages - Commented out for Final Project use
+#create_placement_blockage \
+#	-boundary {{7.9600 8.0000} {7.9600 14.0000} {15.9520 14.0000} {15.9520 8.0000}} \
+#	-type hard 
+#
+#check_legality 
+#legalize_placement -incremental
 
 #### Connect PG nets
 connect_pg_net -net VDD [get_pins -hierarchical  */VDD]

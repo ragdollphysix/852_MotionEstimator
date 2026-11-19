@@ -1,0 +1,172 @@
+                             RESULTS: NOT CLEAN
+
+         #   #   ###   #####      ####  #      #####   ###   #   #
+         ##  #  #   #    #       #      #      #      #   #  ##  #
+         # # #  #   #    #       #      #      ####   #####  # # #
+         #  ##  #   #    #       #      #      #      #   #  #  ##
+         #   #   ###     #        ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+           Version W-2024.09-3 for linux64 - Oct 28, 2024 cl#10932488
+
+                    Copyright (c) 1996 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -host_init 2 -icc2 -f NDM -i top.dlib -p /home/924317222/Assignments/FinalProject/results -c top -ndm_design_label signoff -icc_density_blockage -I /home/924317222/Assignments/FinalProject/signoff_fill_run -I /home/924317222/Assignments/FinalProject/signoff_fill_run/icv_run_1 -I /packages/synopsys/fc/X-2025.06-SP2a/etc/pxl -I /packages/synopsys/fc/X-2025.06-SP2a/etc/pxl -rc /home/924317222/Assignments/FinalProject/signoff_fill_run/icv_run_1/icvOptionFile.rc -lf /home/924317222/Assignments/FinalProject/common/map/saed14nm_1p9m_gdsout_mw.map /packages/synopsys/fc/X-2025.06-SP2a/etc/pxl/signoff_metal_fill.rs
+
+Command Line Summary:
+icv
+-c top
+-f NDM
+-host_init 2
+-i top.dlib
+-icc2
+-icc_density_blockage
+-lf /home/924317222/Assignments/FinalProject/common/map/saed14nm_1p9m_gdsout_mw.map
+-ndm_design_label signoff
+-p /home/924317222/Assignments/FinalProject/results
+-rc /home/924317222/Assignments/FinalProject/signoff_fill_run/icv_run_1/icvOptionFile.rc
+-I /home/924317222/Assignments/FinalProject/signoff_fill_run
+-I /home/924317222/Assignments/FinalProject/signoff_fill_run/icv_run_1
+-I /packages/synopsys/fc/X-2025.06-SP2a/etc/pxl
+-I /packages/synopsys/fc/X-2025.06-SP2a/etc/pxl
+/packages/synopsys/fc/X-2025.06-SP2a/etc/pxl/signoff_metal_fill.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Input file name:        top.dlib
+Top cell name:          top
+Layout format:          NDM
+Runset file:            /packages/synopsys/fc/X-2025.06-SP2a/etc/pxl/signoff_metal_fill.rs
+Working directory:      /home/924317222/Assignments/FinalProject/signoff_fill_run/icv_run_1
+Run details directory:  /home/924317222/Assignments/FinalProject/signoff_fill_run/icv_run_1/run_details
+Layout error file:      top.LAYOUT_ERRORS
+User name:              924317222
+Time started:           2026/11/19 12:12:06AM
+Time ended:             2026/11/19 12:12:14AM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+4 total rules were run.
+0 rules NOT EXECUTED.
+1 rule has violations.
+There are 166 total violations.
+Refer to top.LAYOUT_ERRORS
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Rule                           Violations Found
+Fill candidates within window  v = 166
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 18
+ Empty Utilized Assign Layers = 5
+ Non-Empty Utilized Assign Layers = 13
+Pruned Assign Layers = 178
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { ERRORS }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 100
+ match_errors = { }
+ match_errors_processing_mode = HIERARCHICAL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+ report_error_details_limit_per_check = 100000
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/home/924317222"
+ICV_HOME_DIR = "/packages/synopsys/ic_validator/W-2024.09-3"
+LM_LICENSE_FILE = "/packages/synopsys/license/synopsys.lic"
+PATH = "/packages/synopsys/vcs/W-2024.09-1//bin:/packages/synopsys/verdi/W-2024.09-1//bin:/packages/synopsys/ic_validator/W-2024.09-3/bin/linux64:/packages/synopsys/fc/X-2025.06-SP2a/bin:/packages/synopsys/verdi/W-2024.09-1/bin:/packages/synopsys/icc2/S-2021.06-SP5-1/bin:/packages/synopsys/prime_eco/U-2022.12-SP5-3/bin:/packages/synopsys/primetime/U-2022.12-SP5-1/bin:/packages/synopsys/vcs/W-2024.09-1/bin:/packages/synopsys/vcs/W-2024.09-1/gui/virsim/bin:/packages/synopsys/synthesis/O-2018.06-SP4/bin:/home/924317222/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/bin/remote-cli:/home/924317222/.local/bin:/home/924317222/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/924317222/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/924317222/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/924317222/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/bin/copilot-shim:/usr/local/X11R6/bin"
+USER = "924317222"
+
+5 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+icv_WRITE_TECH_FILE_WITH_UPDATES = "/home/924317222/Assignments/FinalProject/signoff_fill_run/icv_run_1/tech.tf"
+
+1 debug environment variable set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ mahmoodi.rcc.at.sfsu.edu (2/24)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) Platinum 8462Y+ (VMware full virtualization)
+   CPU:   24 cpu 2800 MHz
+   Cores: 24 
+   RAM:   125.359 GB
+   Swap:  67.933 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:08
+Peak Single Command Memory = 0.124 GB
+Peak Disk Usage = 0.000 GB
+Network Disk Usage Peak=0.013 GB (no group)
+Group File Disk Usage Peak=0.015 GB
+
+Distributed Host Memory Usage
+ mahmoodi.rcc.at.sfsu.edu (2/24)  ....  Average=0.000 GB, Peak=0.124 GB / 125.359 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

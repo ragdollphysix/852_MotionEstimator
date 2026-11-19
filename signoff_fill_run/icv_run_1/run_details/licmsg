@@ -1,0 +1,34 @@
+11/19/2026 00:12:06 (icv) Licensing related environment variables:
+
+  LM_LICENSE_FILE = "/packages/synopsys/license/synopsys.lic"
+
+11/19/2026 00:12:06 license_manager: error creating IPv6 socket: Address family not supported by protocol
+11/19/2026 00:12:06 License manager initialized. (Time=0:00:00)
+11/19/2026 00:12:06 Using license file: /packages/synopsys/license/synopsys.lic
+11/19/2026 00:12:06 (icv) Pre-Checking (ICValidator2-GeometryEngine/2024.09)
+11/19/2026 00:12:06 (icv)   ICValidator2-GeometryEngine license is installed. (Time=0:00:00)
+11/19/2026 00:12:06 License manager shutting down. (Time=0:00:00)
+11/19/2026 00:12:06 license_manager: error creating IPv6 socket: Address family not supported by protocol
+11/19/2026 00:12:06 License manager initialized. (Time=0:00:00)
+11/19/2026 00:12:06 Using license file: /packages/synopsys/license/synopsys.lic
+11/19/2026 00:12:10 Requesting (ICValidator-Manager/2024.09)
+11/19/2026 00:12:10   ICValidator-Manager/2024.09 license denied. (Time=0:00:00)
+11/19/2026 00:12:10 Requesting (ICValidator-Manager-Apex/2024.09)
+11/19/2026 00:12:10   27020@engrlic.rcc.at.sfsu.edu: ICValidator-Manager-Apex license obtained. (Time=0:00:00)
+11/19/2026 00:12:10 
+11/19/2026 00:12:10 Obtained 1 total ICValidator-Manager-Apex license.
+11/19/2026 00:12:10 This will allow up to 4 engine processes to run.
+
+11/19/2026 00:12:10 (pydb_server) Checking (ICValidator2-GeometryEngine/2024.09)
+11/19/2026 00:12:10 (pydb_server)   ICValidator2-GeometryEngine license is installed. (Time=0:00:00)
+11/19/2026 00:12:10 (icv_engine 1) Requesting (ICValidator2-GeometryEngine/2024.09)
+11/19/2026 00:12:10 (icv_engine 1)   27020@engrlic.rcc.at.sfsu.edu: ICValidator2-GeometryEngine license obtained. (Time=0:00:00)
+11/19/2026 00:12:10 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2024.09)
+11/19/2026 00:12:10 (icv_engine 1) Using existing copy of (ICValidator2-GeometryEngine/2024.09)
+11/19/2026 00:12:10 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2024.09)
+11/19/2026 00:12:11 (icv_engine 1) Using existing copy of (ICValidator2-GeometryEngine/2024.09)
+11/19/2026 00:12:11 (icv_engine 1) Using existing copy of (ICValidator2-GeometryEngine/2024.09)
+11/19/2026 00:12:11 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2024.09)
+11/19/2026 00:12:13 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2024.09)
+11/19/2026 00:12:14 Releasing all licenses
+11/19/2026 00:12:14 License manager shutting down. (Time=0:00:00)

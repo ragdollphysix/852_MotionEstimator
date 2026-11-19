@@ -1,0 +1,2 @@
+[582147:2026-11-19 00:11:14.247] Starting service 'hdb' (Node ID=0, Host Name=mahmoodi.rcc.at.sfsu.edu)
+error creating IPv6 socket: Address family not supported by protocol

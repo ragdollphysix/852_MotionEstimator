@@ -1,0 +1,43 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type min
+	-max_paths 1
+	-sort_by slack
+Design : top
+Version: U-2022.12-SP5-3
+Date   : Thu Nov 19 00:24:45 2026
+****************************************
+
+
+  Startpoint: ctl_u/count_reg[0]
+               (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: comp_u/motionX_reg[0]
+               (rising edge-triggered flip-flop clocked by clock)
+  Last common pin: clock
+  Path Group: clock
+  Path Type: min
+
+  Point                                                   Incr       Path
+  ------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        0.01       0.01
+  ctl_u/count_reg[0]/CK (SAEDRVT14_FSDP_V2_1)             0.00       0.01 r
+  ctl_u/count_reg[0]/QN (SAEDRVT14_FSDP_V2_1)             0.02 &     0.03 r
+  comp_u/motionX_reg[0]/D (SAEDRVT14_FDPQB_V3_1)          0.00 &     0.03 r
+  data arrival time                                                  0.03
+
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (propagated)                        0.03       0.03
+  clock reconvergence pessimism                           0.00       0.03
+  comp_u/motionX_reg[0]/CK (SAEDRVT14_FDPQB_V3_1)                    0.03 r
+  library hold time                                       0.00       0.03
+  data required time                                                 0.03
+  ------------------------------------------------------------------------------
+  data required time                                                 0.03
+  data arrival time                                                 -0.03
+  ------------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

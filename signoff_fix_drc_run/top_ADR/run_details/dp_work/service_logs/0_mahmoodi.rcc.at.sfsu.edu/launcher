@@ -1,0 +1,37 @@
+[583814:2026-11-19 00:11:36.578] Starting service 'launcher' (Node ID=0, Host Name=mahmoodi.rcc.at.sfsu.edu)
+[583814:2026-11-19 00:11:36.578] Service Launcher starting
+[583814:2026-11-19 00:11:36.578] Starting service mapper
+[583814:2026-11-19 00:11:36.579] Started service mapper with PID 583817
+[583814:2026-11-19 00:11:36.579] Loading service mapper info
+[583814:2026-11-19 00:11:36.631] Starting services
+[583814:2026-11-19 00:11:36.631] Started service license_manager with PID 583828
+[583814:2026-11-19 00:11:36.631] Started service cluster with PID 583829
+[583814:2026-11-19 00:11:36.631] Started service hdb with PID 583830
+[583814:2026-11-19 00:11:36.632] Started service lock_manager with PID 583831
+[583814:2026-11-19 00:11:36.632] Started service dashboard_mail with PID 583832
+[583814:2026-11-19 00:11:36.632] Started service log_manager with PID 583833
+[583814:2026-11-19 00:11:36.645] Service 'log_manager' with PID 583833 exited with exit status 33
+[583814:2026-11-19 00:11:43.014] Received signal 15. Shutting down.
+[583814:2026-11-19 00:11:43.014] Shutting down service 'cluster'
+[583814:2026-11-19 00:11:43.014]     Closing die FD
+[583814:2026-11-19 00:11:43.014] Shutting down service 'dashboard_mail'
+[583814:2026-11-19 00:11:43.014]     Closing die FD
+[583814:2026-11-19 00:11:43.014] Shutting down service 'hdb'
+[583814:2026-11-19 00:11:43.014]     Closing die FD
+[583814:2026-11-19 00:11:43.014] Shutting down service 'license_manager'
+[583814:2026-11-19 00:11:43.014]     Closing die FD
+[583814:2026-11-19 00:11:43.014] Shutting down service 'lock_manager'
+[583814:2026-11-19 00:11:43.014]     Closing die FD
+[583814:2026-11-19 00:11:43.014] Waiting for service shutdown
+[583814:2026-11-19 00:11:43.015] Service 'cluster' with PID 583829 exited with exit status 0
+[583814:2026-11-19 00:11:43.015] Service 'lock_manager' with PID 583831 exited with exit status 0
+[583814:2026-11-19 00:11:43.015] Service 'dashboard_mail' with PID 583832 exited with exit status 0
+[583814:2026-11-19 00:11:43.015] Service 'license_manager' with PID 583828 exited with exit status 0
+[583814:2026-11-19 00:11:43.016] Service 'hdb' with PID 583830 exited with exit status 0
+[583814:2026-11-19 00:11:43.016] Waited 0 seconds on services to shutdown
+[583814:2026-11-19 00:11:43.016] Shutting down service 'mapper'
+[583814:2026-11-19 00:11:43.016]     Sending SIGTERM to PID 583817
+[583814:2026-11-19 00:11:43.016] Waiting for service shutdown
+[583814:2026-11-19 00:11:43.020] Service 'mapper' with PID 583817 exited with exit status 0
+[583814:2026-11-19 00:11:43.020] Waited 0 seconds on services to shutdown
+[583814:2026-11-19 00:11:43.020] Service Launcher exiting

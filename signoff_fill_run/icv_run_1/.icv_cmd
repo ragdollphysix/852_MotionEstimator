@@ -1,0 +1,4 @@
+top.dlib top signoff icv NDM 2 /packages/synopsys/fc/X-2025.06-SP2a/etc/pxl/signoff_metal_fill.rs /packages/synopsys/fc/X-2025.06-SP2a/etc/pxl /packages/synopsys/fc/X-2025.06-SP2a/etc/pxl /home/924317222/Assignments/FinalProject/signoff_fill_run/icv_run_1/icvOptionFile.rc /home/924317222/Assignments/FinalProject/signoff_fill_run/icv_run_1 /home/924317222/Assignments/FinalProject/signoff_fill_run /home/924317222/Assignments/FinalProject/results /home/924317222/Assignments/FinalProject/common/map/saed14nm_1p9m_gdsout_mw.map -rc -p -ndm_design_label -lf -icc_density_blockage -icc2 -i -host_init -f -c -I -I -I -I 
+schematic=UNSPECIFIED
+ICV_HOME_DIR=/packages/synopsys/ic_validator/W-2024.09-3
+ICV_INCLUDES=UNSET

@@ -1,0 +1,74 @@
+Warning: Scenario FUNC_Fast is not configured for setup analysis: skipping. (UIC-058)
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+Design : top
+Version: X-2025.06-SP2
+Date   : Wed Nov 18 23:38:44 2026
+****************************************
+
+  Startpoint: S2[2] (input port clocked by clock)
+  Endpoint: pe_u/pe2/Accumulate_reg[0] (rising edge-triggered flip-flop clocked by clock)
+  Mode: FUNC
+  Corner: Slow
+  Scenario: FUNC_Slow
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clock (rise edge)                          0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.50      0.50 f
+  S2[2] (in)                                       0.00      0.50 f
+  phfnr_buf_3611/X (SAEDRVT14_INV_0P5)             0.10      0.60 r
+  A2698/X (SAEDRVT14_OAI22_0P5)                    0.11      0.71 f
+  place_optctmTdsLR_1_3793/X (SAEDRVT14_ND2_CDC_1)
+                                                   0.02      0.73 r
+  place_optctmTdsLR_2_3794/X (SAEDRVT14_OAI21_0P75)
+                                                   0.02      0.75 f
+  ctmi_3676/X (SAEDRVT14_OA221_U_0P5)              0.02      0.76 f
+  ctmi_3674/X (SAEDRVT14_AO221_0P5)                0.02      0.79 f
+  A2787/X (SAEDRVT14_AO32_U_0P5)                   0.03      0.81 f
+  ctmi_3668/X (SAEDRVT14_AOI21_0P75)               0.01      0.83 r
+  ctmi_3665/X (SAEDRVT14_AOI21_0P75)               0.02      0.84 f
+  A3271/X (SAEDRVT14_AN2_MM_0P5)                   0.02      0.86 f
+  A3272/X (SAEDRVT14_OAI22_0P5)                    0.08      0.94 r
+  phfnr_buf_3718/X (SAEDRVT14_INV_0P5)             0.10      1.04 f
+  A2855/X (SAEDRVT14_OAI22_0P5)                    0.05      1.09 r
+  A3434/CO (SAEDRVT14_ADDF_V1_0P5)                 0.05      1.14 r
+  RS_OP_394_42657_40159_J1/snps_ADD_370/U_14/CO (SAEDRVT14_ADDF_V1_0P5)
+                                                   0.04      1.18 r
+  RS_OP_394_42657_40159_J1/snps_ADD_370/U_16/S (SAEDRVT14_ADDF_V1_0P5)
+                                                   0.07      1.24 f
+  pe_u/pe2/add_54/U_8/CO (SAEDRVT14_ADDF_V1_0P5)   0.04      1.28 f
+  pe_u/pe2/add_54/U_10/CO (SAEDRVT14_ADDF_V1_0P5)
+                                                   0.04      1.32 f
+  A3391/CO (SAEDRVT14_ADDF_V1_0P5)                 0.04      1.36 f
+  A3392/CO (SAEDRVT14_ADDF_V1_0P5)                 0.04      1.40 f
+  ctmi_2956/X (SAEDRVT14_NR2_1)                    0.02      1.42 r
+  ctmi_3158/X (SAEDRVT14_OAI21_0P5)                0.04      1.46 f
+  A3346/X (SAEDRVT14_AOI21_0P75)                   0.03      1.49 r
+  A3135/X (SAEDRVT14_OAI21_0P5)                    0.02      1.51 f
+  pe_u/pe2/Accumulate_reg[0]/D (SAEDRVT14_FSDPQ_V2_1)
+                                                   0.00      1.51 f
+  data arrival time                                          1.51
+
+  clock clock (rise edge)                          1.92      1.92
+  clock network delay (ideal)                      0.00      1.92
+  pe_u/pe2/Accumulate_reg[0]/CK (SAEDRVT14_FSDPQ_V2_1)
+                                                   0.00      1.92 r
+  clock uncertainty                               -0.20      1.72
+  library setup time                               0.01      1.74
+  data required time                                         1.74
+  ------------------------------------------------------------------------
+  data required time                                         1.74
+  data arrival time                                         -1.51
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.23
+
+
+1

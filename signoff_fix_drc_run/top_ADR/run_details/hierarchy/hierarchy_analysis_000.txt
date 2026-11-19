@@ -1,0 +1,133 @@
+* Description of frequently used terms in hierarchy_analysis files*
+M indicates that the value of that column is in millions
+Hier Plc Count(Hierarchical Placement Count) : Number of unique instances of the cell in another cell (Parent)
+Flat Plc Count(Flat Placement Count)         : Total number of instances of the cell in the layout
+
+Example : 
+                               A                     
+                              / \                   Cell  Hier Plc Count Flat Plc Count 
+                             /   \                     A               1              1 
+                            B     B                    B               2              2 
+                           / \  /  \                   C               2              4 
+                          C   C C   C                
+------------------------------------------------------------------------------------------------------ 
+
+
+* Cells with flat area > 0.01 of top cell *
+Reports cells with flat area > 0.01 of top cell
+
+Flat A(Flat Area) : Total area covered by this cell in the layout(cell area * flat placement count)
+Cell A(Cell Area) : Area of this cell
+Percent of top    : Percentage of area of this cell w.r.t area of top cell
+This table contains 27 entries
+Original table contains 27 entries
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Flat Plc Count, Hier Plc Count, Percent of top
+-----------------------------------------------
+ top_ADR                                       |         0.002,         0.002,              1,              1,       100.00 %
+ SAEDRVT14_FILL_ECO_1                          |         0.000,         0.000,           1425,           1425,        18.52 %
+ SAEDRVT14_ADDF_V2_0P5                         |         0.000,         0.000,             95,             95,         6.21 %
+ SAEDRVT14_FSDPQ_V2_1                          |         0.000,         0.000,            105,            105,         6.20 %
+ SAEDRVT14_FDP_V2_0P5                          |         0.000,         0.000,            110,            110,         5.52 %
+ SAEDRVT14_ADDF_V1_0P5                         |         0.000,         0.000,            100,            100,         5.46 %
+ SAEDRVT14_OAI22_0P5                           |         0.000,         0.000,            263,            263,         5.17 %
+ SAEDRVT14_FILL_ECO_18                         |         0.000,         0.000,            104,            104,         4.98 %
+ SAEDRVT14_OA22_U_0P5                          |         0.000,         0.000,            202,            202,         4.86 %
+ SAEDRVT14_CAPT2                               |         0.000,         0.000,            306,            306,         4.01 %
+ SAEDRVT14_FILL32                              |         0.000,         0.000,             49,             49,         3.85 %
+ SAEDRVT14_FILL5                               |         0.000,         0.000,            142,            142,         2.79 %
+ SAEDRVT14_FILL_ECO_9                          |         0.000,         0.000,             90,             90,         2.36 %
+ SAEDRVT14_FILL2                               |         0.000,         0.000,            164,            164,         2.15 %
+ SAEDRVT14_TAPDS                               |         0.000,         0.000,             65,             65,         1.99 %
+ SAEDRVT14_FILL64                              |         0.000,         0.000,             12,             12,         1.78 %
+ SAEDRVT14_FILL3                               |         0.000,         0.000,            116,            116,         1.77 %
+ SAEDRVT14_ND2_CDC_1                           |         0.000,         0.000,            107,            107,         1.64 %
+ SAEDRVT14_AOI21_0P75                          |         0.000,         0.000,             85,             85,         1.49 %
+ SAEDRVT14_FSDP_V2_1                           |         0.000,         0.000,             23,             23,         1.46 %
+ SAEDRVT14_FILL4                               |         0.000,         0.000,             82,             82,         1.43 %
+ SAEDRVT14_INV_0P5                             |         0.000,         0.000,            108,            108,         1.42 %
+ SAEDRVT14_FILL_ECO_12                         |         0.000,         0.000,             38,             38,         1.33 %
+ SAEDRVT14_OAI21_0P5                           |         0.000,         0.000,             71,             71,         1.24 %
+ SAEDRVT14_AO221_0P5                           |         0.000,         0.000,             42,             42,         1.19 %
+ SAEDRVT14_NR2_MM_0P5                          |         0.000,         0.000,             77,             77,         1.18 %
+ SAEDRVT14_FILL16                              |         0.000,         0.000,             23,             23,         1.01 %
+===============================================
+
+* Large-Area cells and child area ratio *
+This table reports cells with large areas and ratio of its area with total area covered by its children
+
+Num Inst(Number of instances) : Total Number of instances of the cell
+Child A(Child Area)           : Total area covered by all the children of the cell
+Pct of parent(Percent of area): Percentage of total area covered by its childern w.r.t area of this cell
+This table contains 27 entries
+Original table contains 27 entries
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Num Inst (M), Child A (mm^2), Pct of parent
+-----------------------------------------------
+ top_ADR                                       |         0.002,         0.002,        0.004,         0.002,      101.16 %
+ SAEDRVT14_FILL_ECO_1                          |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_ADDF_V2_0P5                         |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FSDPQ_V2_1                          |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FDP_V2_0P5                          |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_ADDF_V1_0P5                         |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_OAI22_0P5                           |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FILL_ECO_18                         |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_OA22_U_0P5                          |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_CAPT2                               |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FILL32                              |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FILL5                               |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FILL_ECO_9                          |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FILL2                               |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_TAPDS                               |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FILL64                              |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FILL3                               |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_ND2_CDC_1                           |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_AOI21_0P75                          |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FSDP_V2_1                           |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FILL4                               |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_INV_0P5                             |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FILL_ECO_12                         |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_OAI21_0P5                           |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_AO221_0P5                           |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_NR2_MM_0P5                          |         0.000,         0.000,        0.000,         0.000,        0.00 %
+ SAEDRVT14_FILL16                              |         0.000,         0.000,        0.000,         0.000,        0.00 %
+===============================================
+
+* Layer Report with Estimated Data *
+Reports information of layers present in the layout
+
+Trap        : Number of hierarchical trapezoids in the layer
+Poly        : Number of hierarchical polygons in the layer
+Text        : Number of hierarchical text primitives in the layer
+Flat Trap   : Number of flat trapezoids 
+Flat Poly   : Number of flat polygons
+Flat Text   : Number of flat text primitives 
+Trap F/H    : Ratio of flat and hierarchical placements of the trapezoids
+Base, Metal, Via, Fill, Colored : Indicates layer intent
+This table contains 20 entries
+Original table contains 20 entries
+
+ Name                                          | Trap (M), Poly (M), Text (M), Flat Trap (M), Flat Poly (M), Flat Text (M), Trap F/H, Base, Metal, Via, Fill, Colored
+-----------------------------------------------
+ M2i                                           |    0.023,    0.023,    0.000,         0.025,         0.025,         0.000,     1.13,    0,     0,   0,    0,       0
+ M3i                                           |    0.015,    0.015,    0.000,         0.015,         0.015,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA2i                                         |    0.012,    0.012,    0.000,         0.012,         0.012,         0.000,     1.00,    0,     0,   0,    0,       0
+ M1i                                           |    0.010,    0.010,    0.000,         0.052,         0.046,         0.000,     5.19,    0,     0,   0,    0,       0
+ VIA1i                                         |    0.009,    0.009,    0.000,         0.017,         0.017,         0.000,     1.91,    0,     0,   0,    0,       0
+ M4i                                           |    0.006,    0.006,    0.000,         0.006,         0.006,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA3i                                         |    0.003,    0.003,    0.000,         0.003,         0.003,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA6i                                         |    0.003,    0.003,    0.000,         0.003,         0.003,         0.000,     1.00,    0,     0,   0,    0,       0
+ M5i                                           |    0.002,    0.002,    0.000,         0.002,         0.002,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA4i                                         |    0.001,    0.001,    0.000,         0.001,         0.001,         0.000,     1.00,    0,     0,   0,    0,       0
+ POi                                           |    0.001,    0.001,    0.000,         0.038,         0.038,         0.000,    30.75,    0,     0,   0,    0,       0
+ M6i                                           |    0.001,    0.001,    0.000,         0.001,         0.001,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA5i                                         |    0.001,    0.001,    0.000,         0.001,         0.001,         0.000,     1.00,    0,     0,   0,    0,       0
+ M7i                                           |    0.001,    0.001,    0.000,         0.001,         0.001,         0.000,     1.00,    0,     0,   0,    0,       0
+ DIFFi                                         |    0.000,    0.000,    0.000,         0.012,         0.008,         0.000,    28.10,    0,     0,   0,    0,       0
+ NWELLi                                        |    0.000,    0.000,    0.000,         0.005,         0.004,         0.000,    51.44,    0,     0,   0,    0,       0
+ M6PIN_text                                    |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ M4PIN_text                                    |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ M3PIN_text                                    |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ FINi                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+===============================================
+

@@ -1,0 +1,13 @@
+#!/bin/sh
+ulimit -c 0
+total=0
+pathsize=`/usr/bin/du -s --block-size=1 /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/run_details --exclude=group | awk '{print $1}'`
+total=$(($total+$pathsize))
+group=0
+group=`/usr/bin/du -s --block-size=1 /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/run_details/group | awk '{print $1}'`
+echo $group > /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/run_details/group/duse_group.tmp && \
+mv /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/run_details/group/duse_group.tmp /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/run_details/group/duse_group
+pathsize=`/usr/bin/du -s --block-size=1 /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/top_ADR.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/run_details/duse_manager_res.tmp && \
+mv /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/run_details/duse_manager_res.tmp /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/run_details/duse_manager_res

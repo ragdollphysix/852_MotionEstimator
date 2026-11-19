@@ -1,0 +1,12 @@
+****************************************
+Report : global_timing
+	-format { narrow }
+Design : top
+Version: U-2022.12-SP5-3
+Date   : Thu Nov 19 00:24:46 2026
+****************************************
+
+No setup violations found.
+
+No hold violations found.
+1

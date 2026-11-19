@@ -1,0 +1,239 @@
+                             RESULTS: NOT CLEAN
+
+         #   #   ###   #####      ####  #      #####   ###   #   #
+         ##  #  #   #    #       #      #      #      #   #  ##  #
+         # # #  #   #    #       #      #      ####   #####  # # #
+         #  ##  #   #    #       #      #      #      #   #  #  ##
+         #   #   ###     #        ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+           Version W-2024.09-3 for linux64 - Oct 28, 2024 cl#10932488
+
+                    Copyright (c) 1996 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -host_init 2 -icc2 -f NDM -i top.dlib -p /home/924317222/Assignments/FinalProject/results -c top -ndm_design_label signoff -clf /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run/slnFile.txt -icc_density_blockage -icc2_error_categories -hm -I /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run -icc2_error_browser INST -icc2_error_cell signoff_check_drc.err -clf /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run/rule_pattern.clf -rc /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run/signoff_check_drc.rc -I /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run -lf /home/924317222/Assignments/FinalProject/common/map/saed14nm_1p9m_gdsout_mw.map /home/924317222/Assignments/FinalProject/common/runsets/saed14nm_1p9m_drc_rules.rs  
+
+Command Line Summary:
+icv
+-c top
+-f NDM
+-hm
+-host_init 2
+-i top.dlib
+-icc2
+-icc2_error_browser INST
+-icc2_error_categories
+-icc2_error_cell signoff_check_drc.err
+-icc_density_blockage
+-lf /home/924317222/Assignments/FinalProject/common/map/saed14nm_1p9m_gdsout_mw.map
+-ndm_design_label signoff
+-p /home/924317222/Assignments/FinalProject/results
+-rc /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run/signoff_check_drc.rc
+-sln "19 21 23 25 27 29 31 33 35 47 20 22 24 26 28 30 32 34 48 "
+-uvc "*:*Density*of*"
+-uvc "*:*Density*of*"
+-uvc "*:LOGO*"
+-uvc "*:WARNING*"
+-uvc "*AN.R.[0-9]*"
+-uvc "*DIODMY.[A-Z].*"
+-uvc "*DIODMY.[A-Z].[0-9]*"
+-uvc "*DOD.[A-Z].[0-9]*"
+-uvc "*DTCD.[A-Z].[0-9]*"
+-uvc "*ESD.[A-Z].*"
+-uvc "*GRMx.C.2_M1*"
+-uvc "*GRMx.C.2_M2*"
+-uvc "*GRMx.C.2_M3*"
+-uvc "*GRMx.C.2_M4*"
+-uvc "*GRV1.C.6*"
+-uvc "*GRVx.C.6_V2*"
+-uvc "*GRVx.C.6_V3*"
+-uvc "*Gate"
+-uvc "*HV_N.[A-Z].*"
+-uvc "*LUP.[A-Z][0-9].*"
+-uvc "*M*.R.14*"
+-uvc "*M1.G0.1__M1.G0.2__M1.G0.3*"
+-uvc "*M2.G0.1__M2.G0.2__M2.G0.3*"
+-uvc "*M3.G0.1__M3.G0.2__M3.G0.3*"
+-uvc "*M4.G0.1__M4.G0.2__M4.G0.3*"
+-uvc "*M5.G0.1__M5.G0.2__M5.G0.3*"
+-uvc "*M6.G0.1__M6.G0.2__M6.G0.3*"
+-uvc "*NP.[A-Z].*"
+-uvc "*NW.[A-Z].*"
+-uvc "*NWROD.[A-Z].*"
+-uvc "*NWRSTI.[A-Z].*"
+-uvc "*OD.[A-Z].*"
+-uvc "*OD[0-1].[A-Z].*"
+-uvc "*PP.[A-Z].*"
+-uvc "*RH_OD.[A-Z].*"
+-uvc "*RH_TN.[A-Z].*"
+-uvc "*ROM.[A-Z].[0-9]*"
+-uvc "*SR.[A-Z].*"
+-uvc "*SRAM.[A-Z].[0-9]*"
+-uvc "*SSD.[A-Z].*"
+-uvc "*USER_GUIDE*"
+-uvc "*[0-9][A-Z]:HIADMY"
+-uvc "*[A-Z][0-9]:BJTDMY*"
+-uvc "*[A-Z][0-9]:BJTHDMY*"
+-uvc "CSR*:*"
+-uvc "DM*:*"
+-uvc "M*.DN.*:*"
+-uvc "Rule*DEN*:*"
+-uvc "Rule:.*:*Density*of*"
+-uvc "Rule:.*CSR*:*"
+-uvc "Rule:.*DM*:*"
+-uvc "Rule:.*M*.DN.*:*"
+-uvc "Rule:.*USER_GUIDE.M*"
+-uvc "Rule:.*USER_GUIDE.VIA*"
+-uvc "Rule:.*VIA*.DN.*:*"
+-uvc "USER_GUIDE.M*"
+-uvc "USER_GUIDE.VIA*"
+-uvc "VIA*.DN.*:*"
+-I /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run
+-I /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run
+/home/924317222/Assignments/FinalProject/common/runsets/saed14nm_1p9m_drc_rules.rs
+
+CLF Files:
+  /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run/slnFile.txt
+  /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run/rule_pattern.clf
+  
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Input file name:        top.dlib
+Top cell name:          top
+Layout format:          NDM
+Runset file:            /home/924317222/Assignments/FinalProject/common/runsets/saed14nm_1p9m_drc_rules.rs
+Working directory:      /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run
+Run details directory:  /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run/run_details
+Layout error file:      top.LAYOUT_ERRORS
+User name:              924317222
+Time started:           2026/11/19 12:11:14AM
+Time ended:             2026/11/19 12:11:21AM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+242 total rules were run.
+114 rules NOT EXECUTED.
+2 rules have violations.
+There are 2 total violations.
+Refer to top.LAYOUT_ERRORS
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Rule                          Violations Found
+M2.S.2                        v = 1
+M2.S.3                        v = 1
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 26
+ Empty Utilized Assign Layers = 13
+ Non-Empty Utilized Assign Layers = 13
+Pruned Assign Layers = 79
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { ERRORS }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_sampling_per_check = 1000
+ match_errors = { }
+ match_errors_processing_mode = HIERARCHICAL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+ report_error_details_limit_per_check = 100000
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/home/924317222"
+ICV_HOME_DIR = "/packages/synopsys/ic_validator/W-2024.09-3"
+ICV_REVERT = "NDM_DESIGN_ATTACHED_ERROR_DATA"
+LM_LICENSE_FILE = "/packages/synopsys/license/synopsys.lic"
+PATH = "/packages/synopsys/vcs/W-2024.09-1//bin:/packages/synopsys/verdi/W-2024.09-1//bin:/packages/synopsys/ic_validator/W-2024.09-3/bin/linux64:/packages/synopsys/fc/X-2025.06-SP2a/bin:/packages/synopsys/verdi/W-2024.09-1/bin:/packages/synopsys/icc2/S-2021.06-SP5-1/bin:/packages/synopsys/prime_eco/U-2022.12-SP5-3/bin:/packages/synopsys/primetime/U-2022.12-SP5-1/bin:/packages/synopsys/vcs/W-2024.09-1/bin:/packages/synopsys/vcs/W-2024.09-1/gui/virsim/bin:/packages/synopsys/synthesis/O-2018.06-SP4/bin:/home/924317222/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/bin/remote-cli:/home/924317222/.local/bin:/home/924317222/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/924317222/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/924317222/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/924317222/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/bin/copilot-shim:/usr/local/X11R6/bin"
+USER = "924317222"
+
+6 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+icv_WRITE_TECH_FILE_WITH_UPDATES = "/home/924317222/Assignments/FinalProject/signoff_fix_drc_run/signoff_check_drc_run/tech.tf"
+
+1 debug environment variable set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ mahmoodi.rcc.at.sfsu.edu (2/24)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) Platinum 8462Y+ (VMware full virtualization)
+   CPU:   24 cpu 2800 MHz
+   Cores: 24 
+   RAM:   125.359 GB
+   Swap:  67.933 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:07
+Peak Single Command Memory = 0.081 GB
+Peak Disk Usage = 0.000 GB
+Network Disk Usage Peak=0.015 GB (no group)
+Group File Disk Usage Peak=0.012 GB
+
+Distributed Host Memory Usage
+ mahmoodi.rcc.at.sfsu.edu (2/24)  ....  Average=0.000 GB, Peak=0.081 GB / 125.359 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

@@ -1,0 +1,12 @@
+[11/19/26 00:12:10.452] Host Health Monitor pid 586275
+stdout and stderr from Host Health Monitor are piped to this file.
+[11/19/26 00:12:10.452] stdin is closed.
+[11/19/26 00:12:10.452] timezone PST (-0800)
+[11/19/26 00:12:10.452] Initialized callbacks for stdenv library
+[11/19/26 00:12:10.453] Initialized Host Health Monitor
+Sampling interval is set to 4s
+Memory metric is set to pss (proportional set size)
+Parsing smaps files is turned ON
+[11/19/26 00:12:10.458] Starting HHM from parent process icv_worker (pid 586247).
+[11/19/26 00:12:10.458] Acquire process tree root from icv (pid 586047)
+[11/19/26 00:12:10.483] wall 0.02s, usr 0.00s, sys 0.02s

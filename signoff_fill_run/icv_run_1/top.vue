@@ -1,0 +1,15 @@
+ICV_HOME_DIR      = /packages/synopsys/ic_validator/W-2024.09-3
+ICV_COORDS_BIT    = 32
+WORKING_DIR       = .
+INLIB             = top.dlib
+INLIB_PATH        = /home/924317222/Assignments/FinalProject/results
+BLOCK             = top
+CREATE_VUE_OUTPUT = FALSE
+PYDB_PATH         = run_details/pydb
+RUN_DETAILS_DIR   = run_details
+NDB_PATH          = run_details/.ndb
+REPORT_LAYOUT_ERRORS = HIERARCHICAL
+FORMAT            = NDM
+SCHEMATIC_FORMAT  = ICV
+GROUP_PATH        = run_details/group
+RUNSET_FILE_NAME  = signoff_metal_fill.rs

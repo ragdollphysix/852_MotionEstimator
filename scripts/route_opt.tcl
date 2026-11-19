@@ -31,7 +31,7 @@ set_ignored_layers \
 	-max_routing_layer M7
 
 #### Routing blockage example
-create_routing_blockage -boundary {{7.9600 8.0000} {7.9600 14.0000} {15.9520 14.0000} {15.9520 8.0000}} -net_types {signal} -layers {M4} -name_prefix RB -zero_spacing
+#create_routing_blockage -boundary {{7.9600 8.0000} {7.9600 14.0000} {15.9520 14.0000} {15.9520 8.0000}} -net_types {signal} -layers {M4} -name_prefix RB -zero_spacing
 
 #### Routing flow
 sizeof_collection [get_nets -hierarchical *]

@@ -1,0 +1,1389 @@
+#
+# runset is /packages/synopsys/fc/X-2025.06-SP2a/etc/pxl/signoff_metal_fill.rs
+#
+runset_csum = 64767
+num_hosts = 2
+events {
+S 217.0.0 851 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1276  1 _prescan_library
+S 222.0.0 868 1
+# mahmoodi.rcc.at.sfsu.edu(1):       986  1 _read_schematic_cell_names
+F 222.0.0 868 1
+F 217.0.0 851 0
+S 219.0.0 858 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1281  1 _scan_hierarchy
+F 0 0 1
+F 219.0.0 858 0
+S 221.0.0 862 1
+# mahmoodi.rcc.at.sfsu.edu(1):     10522  1 _read_library_segment
+F 221.0.0 862 1
+S 224.0.0 873 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1179  1 _rls_cleanup
+F 224.0.0 873 0
+S 225.0.0 875 0
+# mahmoodi.rcc.at.sfsu.edu(0):      7776  1 _create_hierarchy_tree
+F 225.0.0 875 0
+S 286.0.0 1077 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2138  1 _optimize_hierarchy_tree
+S 285.0.0 1075 1
+# mahmoodi.rcc.at.sfsu.edu(1):       989  1 _generate_sibling_refref
+F 285.0.0 1075 1
+S 284.0.0 1071 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1247  1 _write_create_layer_shared_hierarchy
+F 284.0.0 1071 1
+F 286.0.0 1077 0
+S 287.0.0 1087 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1428  1 _hierarchy_cleanup
+S 338.0.0 1293 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4894  1 _create_layer_dp
+F 338.0.0 1293 1
+S 334.0.0 1277 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4813  1 _create_layer_dp
+F 287.0.0 1087 0
+F 334.0.0 1277 1
+S 288.0.0 1090 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1447  1 _update_and_pushdown_refref
+F 288.0.0 1090 1
+S 330.0.0 1261 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4894  1 _create_layer_dp
+F 330.0.0 1261 1
+S 326.0.0 1245 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4813  1 _create_layer_dp
+F 326.0.0 1245 1
+S 322.0.0 1229 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4813  1 _create_layer_dp
+S 318.0.0 1213 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4894  1 _create_layer_dp
+F 322.0.0 1229 1
+S 314.0.0 1197 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4813  1 _create_layer_dp
+F 314.0.0 1197 1
+S 310.0.0 1181 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4894  1 _create_layer_dp
+F 318.0.0 1213 0
+S 306.0.0 1165 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4813  1 _create_layer_dp
+F 310.0.0 1181 1
+S 302.0.0 1149 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4894  1 _create_layer_dp
+F 306.0.0 1165 0
+S 298.0.0 1133 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4813  1 _create_layer_dp
+F 302.0.0 1149 1
+S 294.0.0 1117 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4894  1 _create_layer_dp
+F 298.0.0 1133 0
+S 290.0.0 1094 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4813  1 _create_layer_dp
+F 294.0.0 1117 1
+S 296.0.0 1127 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4691  1 _optimize_unmerged_layer_dp
+F 296.0.0 1127 1
+S 295.0.0 1122 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4588  1 _optimize_layer_dp
+F 290.0.0 1094 0
+S 292.0.0 1111 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4616  1 _optimize_unmerged_layer_dp
+F 295.0.0 1122 1
+S 291.0.0 1106 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4519  1 _optimize_layer_dp
+F 292.0.0 1111 0
+S 659.0.0 2282 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2774  1 _boolean_or_list
+F 659.0.0 2282 0
+S 663.0.0 2294 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2664  1 _remove_overlap
+F 663.0.0 2294 0
+S 346.0.0 1319 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2945  1 _copy
+F 346.0.0 1319 0
+S 350.0.0 1331 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2723  1 _remove_overlap
+F 350.0.0 1331 0
+S 300.0.0 1143 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4616  1 _optimize_unmerged_layer_dp
+F 291.0.0 1106 1
+S 636.0.0 2205 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1123  1 _boolean_or_list
+F 300.0.0 1143 0
+S 357.0.0 1357 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2386  1 _merge_dirty_layer
+F 357.0.0 1357 0
+S 359.0.0 1361 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2546  1 _boolean_or_list
+F 359.0.0 1361 0
+S 364.0.0 1375 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2450  1 _remove_overlap
+F 364.0.0 1375 0
+S 342.0.0 1309 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1166  1 _copy
+F 342.0.0 1309 0
+S 347.0.0 1322 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2849  1 _boolean_not
+F 347.0.0 1322 0
+S 348.0.0 1325 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2721  1 _remove_overlap
+F 636.0.0 2205 1
+S 660.0.0 2285 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2787  1 _boolean_not
+F 660.0.0 2285 1
+S 661.0.0 2288 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2662  1 _remove_overlap
+F 348.0.0 1325 0
+S 637.0.0 2208 0
+# mahmoodi.rcc.at.sfsu.edu(0):       878  1 _layer_extent
+F 637.0.0 2208 0
+S 662.0.0 2291 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2785  1 _boolean_not
+F 662.0.0 2291 0
+S 343.0.0 1312 0
+# mahmoodi.rcc.at.sfsu.edu(0):       882  1 _layer_extent
+F 343.0.0 1312 0
+S 349.0.0 1328 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2843  1 _boolean_not
+F 349.0.0 1328 0
+S 352.0.0 1336 0
+# mahmoodi.rcc.at.sfsu.edu(0):      7351  1 _density_m
+F 661.0.0 2288 1
+S 759.0.0 2580 1
+# mahmoodi.rcc.at.sfsu.edu(1):      7338  1 _density_m
+F 352.0.0 1336 0
+S 665.0.0 2299 0
+# mahmoodi.rcc.at.sfsu.edu(0):      7313  1 _density_m
+F 759.0.0 2580 1
+S 299.0.0 1138 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4519  1 _optimize_layer_dp
+F 665.0.0 2299 0
+S 304.0.0 1159 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4691  1 _optimize_unmerged_layer_dp
+F 304.0.0 1159 0
+S 672.0.0 2319 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2774  1 _boolean_or_list
+F 672.0.0 2319 0
+S 676.0.0 2331 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2664  1 _remove_overlap
+F 676.0.0 2331 0
+S 303.0.0 1154 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4588  1 _optimize_layer_dp
+F 299.0.0 1138 1
+S 839.0.0 2777 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1963  1 _flatten
+F 303.0.0 1154 0
+S 840.0.0 2780 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1966  1 _flatten
+F 839.0.0 2777 1
+S 639.0.0 2215 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1123  1 _boolean_or_list
+F 840.0.0 2780 0
+S 369.0.0 1392 0
+# mahmoodi.rcc.at.sfsu.edu(0):       394  1 _create_q
+F 639.0.0 2215 1
+S 673.0.0 2322 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2787  1 _boolean_not
+F 673.0.0 2322 1
+S 674.0.0 2325 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2662  1 _remove_overlap
+F 674.0.0 2325 1
+S 640.0.0 2218 1
+# mahmoodi.rcc.at.sfsu.edu(1):       878  1 _layer_extent
+F 369.0.0 1392 0
+S 370.0.0 1394 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1796  1 _oversize_q
+F 640.0.0 2218 1
+S 675.0.0 2328 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2785  1 _boolean_not
+F 675.0.0 2328 1
+S 770.0.0 2607 1
+# mahmoodi.rcc.at.sfsu.edu(1):      7338  1 _density_m
+F 770.0.0 2607 1
+S 678.0.0 2336 1
+# mahmoodi.rcc.at.sfsu.edu(1):      7314  1 _density_m
+F 678.0.0 2336 1
+S 360.0.0 1364 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2572  1 _boolean_not
+F 360.0.0 1364 1
+S 361.0.0 1367 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2448  1 _remove_overlap
+F 370.0.0 1394 0
+S 353.0.0 1341 0
+# mahmoodi.rcc.at.sfsu.edu(0):       855  1 _layer_extent
+F 353.0.0 1341 0
+S 355.0.0 1346 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2592  1 _copy
+F 355.0.0 1346 0
+S 363.0.0 1372 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2565  1 _boolean_not
+F 363.0.0 1372 0
+S 308.0.0 1175 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4616  1 _optimize_unmerged_layer_dp
+F 361.0.0 1367 1
+S 366.0.0 1380 1
+# mahmoodi.rcc.at.sfsu.edu(1):     12680  1 _density_m
+F 308.0.0 1175 0
+S 382.0.0 1435 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2386  1 _merge_dirty_layer
+F 382.0.0 1435 0
+S 384.0.0 1439 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2546  1 _boolean_or_list
+F 384.0.0 1439 0
+S 389.0.0 1453 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2450  1 _remove_overlap
+F 389.0.0 1453 0
+S 307.0.0 1170 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4519  1 _optimize_layer_dp
+F 366.0.0 1380 1
+S 368.0.0 1390 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1267  1 _merge_dirty_layer
+F 368.0.0 1390 1
+S 372.0.0 1400 1
+# mahmoodi.rcc.at.sfsu.edu(1):       455  1 _create_q
+F 372.0.0 1400 1
+S 371.0.0 1398 1
+# mahmoodi.rcc.at.sfsu.edu(1):       446  1 _create_q
+F 371.0.0 1398 1
+S 373.0.0 1402 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2097  1 _boolean_not_q
+F 307.0.0 1170 0
+S 841.0.0 2783 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1964  1 _flatten
+F 841.0.0 2783 0
+S 394.0.0 1469 0
+# mahmoodi.rcc.at.sfsu.edu(0):       394  1 _create_q
+F 394.0.0 1469 0
+S 395.0.0 1471 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1796  1 _oversize_q
+F 395.0.0 1471 0
+S 385.0.0 1442 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2572  1 _boolean_not
+F 385.0.0 1442 0
+S 386.0.0 1445 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2448  1 _remove_overlap
+F 373.0.0 1402 1
+S 375.0.0 1408 1
+# mahmoodi.rcc.at.sfsu.edu(1):       465  1 _create_q
+F 375.0.0 1408 1
+S 374.0.0 1406 1
+# mahmoodi.rcc.at.sfsu.edu(1):       464  1 _create_q
+F 386.0.0 1445 0
+S 378.0.0 1419 0
+# mahmoodi.rcc.at.sfsu.edu(0):       855  1 _layer_extent
+F 378.0.0 1419 0
+S 380.0.0 1424 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2592  1 _copy
+F 380.0.0 1424 0
+S 388.0.0 1450 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2565  1 _boolean_not
+F 388.0.0 1450 0
+S 391.0.0 1458 0
+# mahmoodi.rcc.at.sfsu.edu(0):     12680  1 _density_m
+F 391.0.0 1458 0
+S 393.0.0 1467 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1267  1 _merge_dirty_layer
+F 393.0.0 1467 0
+S 392.0.0 1464 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1744  1 _copy_density_viol
+F 392.0.0 1464 0
+S 367.0.0 1387 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1744  1 _copy_density_viol
+F 367.0.0 1387 0
+S 312.0.0 1191 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4691  1 _optimize_unmerged_layer_dp
+F 374.0.0 1406 1
+S 376.0.0 1410 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2129  1 _boolean_not_q
+F 312.0.0 1191 0
+S 685.0.0 2355 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2774  1 _boolean_or_list
+F 685.0.0 2355 0
+S 689.0.0 2367 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2664  1 _remove_overlap
+F 689.0.0 2367 0
+S 311.0.0 1186 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4588  1 _optimize_layer_dp
+F 311.0.0 1186 0
+S 842.0.0 2786 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1968  1 _flatten
+F 842.0.0 2786 0
+S 642.0.0 2225 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1123  1 _boolean_or_list
+F 376.0.0 1410 1
+S 377.0.0 1414 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1775  1 _compress_isolated
+F 642.0.0 2225 0
+S 686.0.0 2358 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2787  1 _boolean_not
+F 686.0.0 2358 0
+S 687.0.0 2361 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2662  1 _remove_overlap
+F 377.0.0 1414 1
+S 487.0.0 1751 1
+# mahmoodi.rcc.at.sfsu.edu(1):       428  1 _create_q
+F 487.0.0 1751 1
+S 488.0.0 1753 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2824  1 _level_one_q
+F 488.0.0 1753 1
+S 489.0.0 1757 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2101  1 _explode_rotation
+F 489.0.0 1757 1
+S 490.0.0 1760 1
+# mahmoodi.rcc.at.sfsu.edu(1):     35600  2 _fill_pattern
+F 687.0.0 2361 0
+S 643.0.0 2228 0
+# mahmoodi.rcc.at.sfsu.edu(0):       878  1 _layer_extent
+F 643.0.0 2228 0
+S 688.0.0 2364 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2785  1 _boolean_not
+F 688.0.0 2364 0
+S 781.0.0 2633 0
+# mahmoodi.rcc.at.sfsu.edu(0):      7338  1 _density_m
+F 781.0.0 2633 0
+S 691.0.0 2372 0
+# mahmoodi.rcc.at.sfsu.edu(0):      7314  1 _density_m
+F 691.0.0 2372 0
+S 397.0.0 1477 0
+# mahmoodi.rcc.at.sfsu.edu(0):       455  1 _create_q
+F 397.0.0 1477 0
+S 396.0.0 1475 0
+# mahmoodi.rcc.at.sfsu.edu(0):       446  1 _create_q
+F 396.0.0 1475 0
+S 398.0.0 1479 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2097  1 _boolean_not_q
+F 490.0.0 1760 1
+S 491.0.0 1768 1
+# mahmoodi.rcc.at.sfsu.edu(1):       225  1 _append_ref_interaction
+F 491.0.0 1768 1
+S 492.0.0 1770 1
+# mahmoodi.rcc.at.sfsu.edu(1):       433  1 _create_q
+F 398.0.0 1479 0
+S 400.0.0 1485 0
+# mahmoodi.rcc.at.sfsu.edu(0):       465  1 _create_q
+F 400.0.0 1485 0
+S 399.0.0 1483 0
+# mahmoodi.rcc.at.sfsu.edu(0):       464  1 _create_q
+F 399.0.0 1483 0
+S 401.0.0 1487 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2129  1 _boolean_not_q
+F 492.0.0 1770 1
+S 493.0.0 1772 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1848  1 _oversize_q
+F 401.0.0 1487 0
+S 402.0.0 1491 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1775  1 _compress_isolated
+F 402.0.0 1491 0
+S 517.0.0 1847 0
+# mahmoodi.rcc.at.sfsu.edu(0):       428  1 _create_q
+F 517.0.0 1847 0
+S 518.0.0 1849 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2824  1 _level_one_q
+F 518.0.0 1849 0
+S 519.0.0 1853 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2101  1 _explode_rotation
+F 519.0.0 1853 0
+S 520.0.0 1856 0
+# mahmoodi.rcc.at.sfsu.edu(0):     35603  2 _fill_pattern
+F 493.0.0 1772 1
+S 495.0.0 1778 1
+# mahmoodi.rcc.at.sfsu.edu(1):       492  1 _create_q
+F 495.0.0 1778 1
+S 494.0.0 1776 1
+# mahmoodi.rcc.at.sfsu.edu(1):       490  1 _create_q
+F 494.0.0 1776 1
+S 496.0.0 1780 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2173  1 _boolean_not_q
+F 520.0.0 1856 0
+S 521.0.0 1860 0
+# mahmoodi.rcc.at.sfsu.edu(0):       225  1 _append_ref_interaction
+F 521.0.0 1860 0
+S 522.0.0 1862 0
+# mahmoodi.rcc.at.sfsu.edu(0):       433  1 _create_q
+F 496.0.0 1780 1
+S 497.0.0 1784 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1808  1 _compress_isolated
+F 497.0.0 1784 1
+S 499.0.0 1791 1
+# mahmoodi.rcc.at.sfsu.edu(1):       443  1 _create_q
+F 499.0.0 1791 1
+S 500.0.0 1793 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2839  1 _level_one_q
+F 500.0.0 1793 1
+S 501.0.0 1797 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2103  1 _explode_rotation
+F 501.0.0 1797 1
+S 502.0.0 1800 1
+# mahmoodi.rcc.at.sfsu.edu(1):     35607  2 _fill_pattern
+F 522.0.0 1862 0
+S 523.0.0 1864 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1848  1 _oversize_q
+F 502.0.0 1800 1
+S 503.0.0 1805 1
+# mahmoodi.rcc.at.sfsu.edu(1):       236  1 _append_ref_interaction
+F 503.0.0 1805 1
+S 505.0.0 1809 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1848  1 _oversize_q
+F 505.0.0 1809 1
+S 508.0.0 1817 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2185  1 _boolean_not_q
+F 508.0.0 1817 1
+S 509.0.0 1821 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1816  1 _compress_isolated
+F 509.0.0 1821 1
+S 511.0.0 1828 1
+# mahmoodi.rcc.at.sfsu.edu(1):       447  1 _create_q
+F 511.0.0 1828 1
+S 512.0.0 1830 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2843  1 _level_one_q
+F 512.0.0 1830 1
+S 513.0.0 1834 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2105  1 _explode_rotation
+F 513.0.0 1834 1
+S 514.0.0 1837 1
+# mahmoodi.rcc.at.sfsu.edu(1):     35605  2 _fill_pattern
+F 514.0.0 1837 1
+S 515.0.0 1842 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1224  1 _boolean_or_list
+F 515.0.0 1842 1
+S 834.0.0 2762 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1974  1 _flatten
+F 834.0.0 2762 1
+S 320.0.0 1223 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4691  1 _optimize_unmerged_layer_dp
+F 320.0.0 1223 1
+S 319.0.0 1218 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4588  1 _optimize_layer_dp
+F 319.0.0 1218 1
+S 844.0.0 2792 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1968  1 _flatten
+F 844.0.0 2792 1
+S 316.0.0 1207 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4616  1 _optimize_unmerged_layer_dp
+F 316.0.0 1207 1
+S 698.0.0 2391 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2774  1 _boolean_or_list
+F 698.0.0 2391 1
+S 702.0.0 2403 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2664  1 _remove_overlap
+F 702.0.0 2403 1
+S 407.0.0 1512 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2386  1 _merge_dirty_layer
+F 407.0.0 1512 1
+S 409.0.0 1516 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2546  1 _boolean_or_list
+F 409.0.0 1516 1
+S 414.0.0 1530 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2450  1 _remove_overlap
+F 414.0.0 1530 1
+S 315.0.0 1202 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4519  1 _optimize_layer_dp
+F 523.0.0 1864 0
+S 525.0.0 1870 0
+# mahmoodi.rcc.at.sfsu.edu(0):       492  1 _create_q
+F 525.0.0 1870 0
+S 524.0.0 1868 0
+# mahmoodi.rcc.at.sfsu.edu(0):       490  1 _create_q
+F 315.0.0 1202 1
+S 843.0.0 2789 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1965  1 _flatten
+F 843.0.0 2789 1
+S 645.0.0 2235 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1024  1 _boolean_or
+F 645.0.0 2235 1
+S 699.0.0 2394 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2787  1 _boolean_not
+F 699.0.0 2394 1
+S 700.0.0 2397 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2662  1 _remove_overlap
+F 700.0.0 2397 1
+S 646.0.0 2238 1
+# mahmoodi.rcc.at.sfsu.edu(1):       878  1 _layer_extent
+F 524.0.0 1868 0
+S 526.0.0 1872 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2173  1 _boolean_not_q
+F 646.0.0 2238 1
+S 701.0.0 2400 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2785  1 _boolean_not
+F 701.0.0 2400 1
+S 792.0.0 2659 1
+# mahmoodi.rcc.at.sfsu.edu(1):      7338  1 _density_m
+F 792.0.0 2659 1
+S 704.0.0 2408 1
+# mahmoodi.rcc.at.sfsu.edu(1):      7314  1 _density_m
+F 704.0.0 2408 1
+S 419.0.0 1546 1
+# mahmoodi.rcc.at.sfsu.edu(1):       394  1 _create_q
+F 419.0.0 1546 1
+S 420.0.0 1548 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1796  1 _oversize_q
+F 420.0.0 1548 1
+S 410.0.0 1519 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2572  1 _boolean_not
+F 410.0.0 1519 1
+S 411.0.0 1522 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2448  1 _remove_overlap
+F 411.0.0 1522 1
+S 403.0.0 1496 1
+# mahmoodi.rcc.at.sfsu.edu(1):       855  1 _layer_extent
+F 403.0.0 1496 1
+S 405.0.0 1501 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2592  1 _copy
+F 405.0.0 1501 1
+S 413.0.0 1527 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2565  1 _boolean_not
+F 413.0.0 1527 1
+S 416.0.0 1535 1
+# mahmoodi.rcc.at.sfsu.edu(1):     12680  1 _density_m
+F 526.0.0 1872 0
+S 527.0.0 1876 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1808  1 _compress_isolated
+F 527.0.0 1876 0
+S 529.0.0 1883 0
+# mahmoodi.rcc.at.sfsu.edu(0):       443  1 _create_q
+F 416.0.0 1535 1
+S 418.0.0 1544 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1267  1 _merge_dirty_layer
+F 529.0.0 1883 0
+S 530.0.0 1885 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2839  1 _level_one_q
+F 418.0.0 1544 1
+S 422.0.0 1554 1
+# mahmoodi.rcc.at.sfsu.edu(1):       455  1 _create_q
+F 530.0.0 1885 0
+S 531.0.0 1889 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2103  1 _explode_rotation
+F 422.0.0 1554 1
+S 421.0.0 1552 1
+# mahmoodi.rcc.at.sfsu.edu(1):       446  1 _create_q
+F 531.0.0 1889 0
+S 532.0.0 1892 0
+# mahmoodi.rcc.at.sfsu.edu(0):     35607  2 _fill_pattern
+F 421.0.0 1552 1
+S 423.0.0 1556 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2097  1 _boolean_not_q
+F 423.0.0 1556 1
+S 425.0.0 1562 1
+# mahmoodi.rcc.at.sfsu.edu(1):       465  1 _create_q
+F 425.0.0 1562 1
+S 424.0.0 1560 1
+# mahmoodi.rcc.at.sfsu.edu(1):       464  1 _create_q
+F 424.0.0 1560 1
+S 426.0.0 1564 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2129  1 _boolean_not_q
+F 532.0.0 1892 0
+S 533.0.0 1896 0
+# mahmoodi.rcc.at.sfsu.edu(0):       236  1 _append_ref_interaction
+F 533.0.0 1896 0
+S 535.0.0 1900 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1848  1 _oversize_q
+F 535.0.0 1900 0
+S 538.0.0 1908 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2185  1 _boolean_not_q
+F 538.0.0 1908 0
+S 539.0.0 1912 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1816  1 _compress_isolated
+F 426.0.0 1564 1
+S 427.0.0 1568 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1775  1 _compress_isolated
+F 539.0.0 1912 0
+S 541.0.0 1919 0
+# mahmoodi.rcc.at.sfsu.edu(0):       447  1 _create_q
+F 427.0.0 1568 1
+S 547.0.0 1937 1
+# mahmoodi.rcc.at.sfsu.edu(1):       428  1 _create_q
+F 541.0.0 1919 0
+S 542.0.0 1921 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2843  1 _level_one_q
+F 547.0.0 1937 1
+S 548.0.0 1939 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2824  1 _level_one_q
+F 542.0.0 1921 0
+S 543.0.0 1925 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2105  1 _explode_rotation
+F 548.0.0 1939 1
+S 549.0.0 1943 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2101  1 _explode_rotation
+F 543.0.0 1925 0
+S 544.0.0 1928 0
+# mahmoodi.rcc.at.sfsu.edu(0):     35605  2 _fill_pattern
+F 549.0.0 1943 1
+S 550.0.0 1946 1
+# mahmoodi.rcc.at.sfsu.edu(1):     35603  2 _fill_pattern
+F 544.0.0 1928 0
+S 545.0.0 1932 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1224  1 _boolean_or_list
+F 545.0.0 1932 0
+S 835.0.0 2765 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1974  1 _flatten
+F 835.0.0 2765 0
+S 417.0.0 1541 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1744  1 _copy_density_viol
+F 417.0.0 1541 0
+S 324.0.0 1239 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4616  1 _optimize_unmerged_layer_dp
+F 324.0.0 1239 0
+S 432.0.0 1589 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2386  1 _merge_dirty_layer
+F 432.0.0 1589 0
+S 715.0.0 2438 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2664  1 _remove_overlap
+F 715.0.0 2438 0
+S 434.0.0 1593 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2546  1 _boolean_or_list
+F 434.0.0 1593 0
+S 439.0.0 1607 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2450  1 _remove_overlap
+F 550.0.0 1946 1
+S 551.0.0 1950 1
+# mahmoodi.rcc.at.sfsu.edu(1):       225  1 _append_ref_interaction
+F 439.0.0 1607 0
+S 323.0.0 1234 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4519  1 _optimize_layer_dp
+F 551.0.0 1950 1
+S 552.0.0 1952 1
+# mahmoodi.rcc.at.sfsu.edu(1):       433  1 _create_q
+F 323.0.0 1234 0
+S 845.0.0 2795 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1965  1 _flatten
+F 845.0.0 2795 0
+S 444.0.0 1623 0
+# mahmoodi.rcc.at.sfsu.edu(0):       394  1 _create_q
+F 444.0.0 1623 0
+S 445.0.0 1625 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1796  1 _oversize_q
+F 445.0.0 1625 0
+S 435.0.0 1596 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2572  1 _boolean_not
+F 435.0.0 1596 0
+S 436.0.0 1599 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2448  1 _remove_overlap
+F 436.0.0 1599 0
+S 712.0.0 2429 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2737  1 _boolean_not
+F 712.0.0 2429 0
+S 713.0.0 2432 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2682  1 _remove_overlap
+F 552.0.0 1952 1
+S 553.0.0 1954 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1848  1 _oversize_q
+F 713.0.0 2432 0
+S 428.0.0 1573 0
+# mahmoodi.rcc.at.sfsu.edu(0):       855  1 _layer_extent
+F 428.0.0 1573 0
+S 648.0.0 2245 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1074  1 _copy
+F 648.0.0 2245 0
+S 714.0.0 2435 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2785  1 _boolean_not
+F 714.0.0 2435 0
+S 803.0.0 2685 0
+# mahmoodi.rcc.at.sfsu.edu(0):      7338  1 _density_m
+F 803.0.0 2685 0
+S 717.0.0 2443 0
+# mahmoodi.rcc.at.sfsu.edu(0):      7314  1 _density_m
+F 717.0.0 2443 0
+S 430.0.0 1578 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2592  1 _copy
+F 430.0.0 1578 0
+S 438.0.0 1604 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2514  1 _boolean_not
+F 438.0.0 1604 0
+S 441.0.0 1612 0
+# mahmoodi.rcc.at.sfsu.edu(0):     12680  1 _density_m
+F 441.0.0 1612 0
+S 443.0.0 1621 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1267  1 _merge_dirty_layer
+F 443.0.0 1621 0
+S 447.0.0 1631 0
+# mahmoodi.rcc.at.sfsu.edu(0):       467  1 _create_q
+F 447.0.0 1631 0
+S 446.0.0 1629 0
+# mahmoodi.rcc.at.sfsu.edu(0):       465  1 _create_q
+F 446.0.0 1629 0
+S 448.0.0 1633 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2131  1 _boolean_not_q
+F 448.0.0 1633 0
+S 449.0.0 1637 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1776  1 _compress_isolated
+F 449.0.0 1637 0
+S 577.0.0 2027 0
+# mahmoodi.rcc.at.sfsu.edu(0):       428  1 _create_q
+F 577.0.0 2027 0
+S 578.0.0 2029 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2824  1 _level_one_q
+F 578.0.0 2029 0
+S 579.0.0 2033 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2101  1 _explode_rotation
+F 579.0.0 2033 0
+S 580.0.0 2036 0
+# mahmoodi.rcc.at.sfsu.edu(0):     35603  2 _fill_pattern
+F 553.0.0 1954 1
+S 555.0.0 1960 1
+# mahmoodi.rcc.at.sfsu.edu(1):       492  1 _create_q
+F 555.0.0 1960 1
+S 554.0.0 1958 1
+# mahmoodi.rcc.at.sfsu.edu(1):       490  1 _create_q
+F 554.0.0 1958 1
+S 556.0.0 1962 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2173  1 _boolean_not_q
+F 580.0.0 2036 0
+S 581.0.0 2040 0
+# mahmoodi.rcc.at.sfsu.edu(0):       225  1 _append_ref_interaction
+F 581.0.0 2040 0
+S 582.0.0 2042 0
+# mahmoodi.rcc.at.sfsu.edu(0):       433  1 _create_q
+F 556.0.0 1962 1
+S 557.0.0 1966 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1808  1 _compress_isolated
+F 557.0.0 1966 1
+S 559.0.0 1973 1
+# mahmoodi.rcc.at.sfsu.edu(1):       443  1 _create_q
+F 559.0.0 1973 1
+S 560.0.0 1975 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2839  1 _level_one_q
+F 560.0.0 1975 1
+S 561.0.0 1979 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2103  1 _explode_rotation
+F 561.0.0 1979 1
+S 562.0.0 1982 1
+# mahmoodi.rcc.at.sfsu.edu(1):     35607  2 _fill_pattern
+F 562.0.0 1982 1
+S 563.0.0 1986 1
+# mahmoodi.rcc.at.sfsu.edu(1):       236  1 _append_ref_interaction
+F 563.0.0 1986 1
+S 565.0.0 1990 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1848  1 _oversize_q
+F 565.0.0 1990 1
+S 568.0.0 1998 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2185  1 _boolean_not_q
+F 568.0.0 1998 1
+S 569.0.0 2002 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1816  1 _compress_isolated
+F 582.0.0 2042 0
+S 583.0.0 2044 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1848  1 _oversize_q
+F 569.0.0 2002 1
+S 571.0.0 2009 1
+# mahmoodi.rcc.at.sfsu.edu(1):       447  1 _create_q
+F 571.0.0 2009 1
+S 572.0.0 2011 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2843  1 _level_one_q
+F 572.0.0 2011 1
+S 573.0.0 2015 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2105  1 _explode_rotation
+F 573.0.0 2015 1
+S 574.0.0 2018 1
+# mahmoodi.rcc.at.sfsu.edu(1):     35605  2 _fill_pattern
+F 574.0.0 2018 1
+S 575.0.0 2022 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1224  1 _boolean_or_list
+F 575.0.0 2022 1
+S 836.0.0 2768 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1974  1 _flatten
+F 836.0.0 2768 1
+S 442.0.0 1618 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1744  1 _copy_density_viol
+F 442.0.0 1618 1
+S 328.0.0 1255 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4616  1 _optimize_unmerged_layer_dp
+F 328.0.0 1255 1
+S 454.0.0 1658 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2386  1 _merge_dirty_layer
+F 454.0.0 1658 1
+S 456.0.0 1662 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2546  1 _boolean_or_list
+F 456.0.0 1662 1
+S 461.0.0 1676 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2450  1 _remove_overlap
+F 461.0.0 1676 1
+S 327.0.0 1250 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4519  1 _optimize_layer_dp
+F 327.0.0 1250 1
+S 846.0.0 2798 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1965  1 _flatten
+F 846.0.0 2798 1
+S 466.0.0 1692 1
+# mahmoodi.rcc.at.sfsu.edu(1):       394  1 _create_q
+F 466.0.0 1692 1
+S 467.0.0 1694 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1796  1 _oversize_q
+F 467.0.0 1694 1
+S 457.0.0 1665 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2572  1 _boolean_not
+F 457.0.0 1665 1
+S 458.0.0 1668 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2448  1 _remove_overlap
+F 458.0.0 1668 1
+S 450.0.0 1642 1
+# mahmoodi.rcc.at.sfsu.edu(1):       855  1 _layer_extent
+F 450.0.0 1642 1
+S 452.0.0 1647 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2592  1 _copy
+F 452.0.0 1647 1
+S 460.0.0 1673 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2565  1 _boolean_not
+F 460.0.0 1673 1
+S 463.0.0 1681 1
+# mahmoodi.rcc.at.sfsu.edu(1):     12690  1 _density_m
+F 583.0.0 2044 0
+S 585.0.0 2050 0
+# mahmoodi.rcc.at.sfsu.edu(0):       492  1 _create_q
+F 585.0.0 2050 0
+S 584.0.0 2048 0
+# mahmoodi.rcc.at.sfsu.edu(0):       490  1 _create_q
+F 463.0.0 1681 1
+S 465.0.0 1690 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1267  1 _merge_dirty_layer
+F 465.0.0 1690 1
+S 464.0.0 1687 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1744  1 _copy_density_viol
+F 464.0.0 1687 1
+S 332.0.0 1271 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4691  1 _optimize_unmerged_layer_dp
+F 332.0.0 1271 1
+S 724.0.0 2462 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2774  1 _boolean_or_list
+F 724.0.0 2462 1
+S 728.0.0 2474 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2664  1 _remove_overlap
+F 728.0.0 2474 1
+S 331.0.0 1266 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4588  1 _optimize_layer_dp
+F 584.0.0 2048 0
+S 586.0.0 2052 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2173  1 _boolean_not_q
+F 331.0.0 1266 1
+S 847.0.0 2801 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1968  1 _flatten
+F 847.0.0 2801 1
+S 650.0.0 2252 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1024  1 _boolean_or
+F 650.0.0 2252 1
+S 725.0.0 2465 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2787  1 _boolean_not
+F 725.0.0 2465 1
+S 726.0.0 2468 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2662  1 _remove_overlap
+F 726.0.0 2468 1
+S 651.0.0 2255 1
+# mahmoodi.rcc.at.sfsu.edu(1):       878  1 _layer_extent
+F 651.0.0 2255 1
+S 727.0.0 2471 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2785  1 _boolean_not
+F 727.0.0 2471 1
+S 814.0.0 2711 1
+# mahmoodi.rcc.at.sfsu.edu(1):      7338  1 _density_m
+F 814.0.0 2711 1
+S 730.0.0 2479 1
+# mahmoodi.rcc.at.sfsu.edu(1):      7314  1 _density_m
+F 586.0.0 2052 0
+S 587.0.0 2056 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1808  1 _compress_isolated
+F 730.0.0 2479 1
+S 469.0.0 1700 1
+# mahmoodi.rcc.at.sfsu.edu(1):       455  1 _create_q
+F 587.0.0 2056 0
+S 589.0.0 2063 0
+# mahmoodi.rcc.at.sfsu.edu(0):       443  1 _create_q
+F 469.0.0 1700 1
+S 468.0.0 1698 1
+# mahmoodi.rcc.at.sfsu.edu(1):       446  1 _create_q
+F 589.0.0 2063 0
+S 590.0.0 2065 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2839  1 _level_one_q
+F 468.0.0 1698 1
+S 470.0.0 1702 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2097  1 _boolean_not_q
+F 590.0.0 2065 0
+S 591.0.0 2069 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2103  1 _explode_rotation
+F 591.0.0 2069 0
+S 592.0.0 2072 0
+# mahmoodi.rcc.at.sfsu.edu(0):     35608  2 _fill_pattern
+F 470.0.0 1702 1
+S 472.0.0 1708 1
+# mahmoodi.rcc.at.sfsu.edu(1):       465  1 _create_q
+F 472.0.0 1708 1
+S 471.0.0 1706 1
+# mahmoodi.rcc.at.sfsu.edu(1):       464  1 _create_q
+F 471.0.0 1706 1
+S 473.0.0 1710 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2129  1 _boolean_not_q
+F 473.0.0 1710 1
+S 474.0.0 1714 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1775  1 _compress_isolated
+F 474.0.0 1714 1
+S 607.0.0 2117 1
+# mahmoodi.rcc.at.sfsu.edu(1):       428  1 _create_q
+F 607.0.0 2117 1
+S 608.0.0 2119 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2824  1 _level_one_q
+F 608.0.0 2119 1
+S 609.0.0 2123 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2101  1 _explode_rotation
+F 609.0.0 2123 1
+S 610.0.0 2126 1
+# mahmoodi.rcc.at.sfsu.edu(1):     35604  2 _fill_pattern
+F 592.0.0 2072 0
+S 593.0.0 2076 0
+# mahmoodi.rcc.at.sfsu.edu(0):       236  1 _append_ref_interaction
+F 593.0.0 2076 0
+S 595.0.0 2080 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1848  1 _oversize_q
+F 595.0.0 2080 0
+S 598.0.0 2088 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2185  1 _boolean_not_q
+F 598.0.0 2088 0
+S 599.0.0 2092 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1816  1 _compress_isolated
+F 599.0.0 2092 0
+S 601.0.0 2099 0
+# mahmoodi.rcc.at.sfsu.edu(0):       447  1 _create_q
+F 601.0.0 2099 0
+S 602.0.0 2101 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2843  1 _level_one_q
+F 602.0.0 2101 0
+S 603.0.0 2105 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2105  1 _explode_rotation
+F 603.0.0 2105 0
+S 604.0.0 2108 0
+# mahmoodi.rcc.at.sfsu.edu(0):     35606  2 _fill_pattern
+F 604.0.0 2108 0
+S 605.0.0 2112 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1224  1 _boolean_or_list
+F 605.0.0 2112 0
+S 837.0.0 2771 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1974  1 _flatten
+F 610.0.0 2126 1
+S 611.0.0 2130 1
+# mahmoodi.rcc.at.sfsu.edu(1):       225  1 _append_ref_interaction
+F 611.0.0 2130 1
+S 612.0.0 2132 1
+# mahmoodi.rcc.at.sfsu.edu(1):       433  1 _create_q
+F 612.0.0 2132 1
+S 613.0.0 2134 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1848  1 _oversize_q
+F 837.0.0 2771 0
+S 336.0.0 1287 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4616  1 _optimize_unmerged_layer_dp
+F 336.0.0 1287 0
+S 478.0.0 1726 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2632  1 _merge_dirty_layer
+F 478.0.0 1726 0
+S 482.0.0 1737 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2696  1 _remove_overlap
+F 482.0.0 1737 0
+S 335.0.0 1282 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4519  1 _optimize_layer_dp
+F 335.0.0 1282 0
+S 479.0.0 1728 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2818  1 _boolean_not
+F 479.0.0 1728 0
+S 480.0.0 1731 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2694  1 _remove_overlap
+F 480.0.0 1731 0
+S 475.0.0 1719 0
+# mahmoodi.rcc.at.sfsu.edu(0):       855  1 _layer_extent
+F 475.0.0 1719 0
+S 481.0.0 1734 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2816  1 _boolean_not
+F 481.0.0 1734 0
+S 484.0.0 1742 0
+# mahmoodi.rcc.at.sfsu.edu(0):      7224  1 _density_m
+F 484.0.0 1742 0
+S 848.0.0 2804 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1869  1 _polygons
+F 848.0.0 2804 0
+S 1272.0.0 4008 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6474  1 _drc_features_q
+F 1272.0.0 4008 0
+S 1266.0.0 3991 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6474  1 _drc_features_q
+F 1266.0.0 3991 0
+S 1260.0.0 3974 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6474  1 _drc_features_q
+F 1260.0.0 3974 0
+S 1254.0.0 3957 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6474  1 _drc_features_q
+F 1254.0.0 3957 0
+S 1248.0.0 3940 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6474  1 _drc_features_q
+F 1248.0.0 3940 0
+S 1242.0.0 3923 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6474  1 _drc_features_q
+F 1242.0.0 3923 0
+S 1236.0.0 3906 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6474  1 _drc_features_q
+F 1236.0.0 3906 0
+S 1230.0.0 3889 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6474  1 _drc_features_q
+F 1230.0.0 3889 0
+S 1224.0.0 3872 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6474  1 _drc_features_q
+F 1224.0.0 3872 0
+S 1218.0.0 3855 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6474  1 _drc_features_q
+F 613.0.0 2134 1
+S 615.0.0 2140 1
+# mahmoodi.rcc.at.sfsu.edu(1):       492  1 _create_q
+F 1218.0.0 3855 0
+F 615.0.0 2140 1
+S 614.0.0 2138 0
+# mahmoodi.rcc.at.sfsu.edu(0):       490  1 _create_q
+S 1212.0.0 3838 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6474  1 _drc_features_q
+F 1212.0.0 3838 1
+S 1206.0.0 3821 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6474  1 _drc_features_q
+F 614.0.0 2138 0
+F 1206.0.0 3821 1
+S 616.0.0 2142 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2173  1 _boolean_not_q
+S 1200.0.0 3804 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6474  1 _drc_features_q
+F 1200.0.0 3804 1
+S 1194.0.0 3787 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6474  1 _drc_features_q
+F 616.0.0 2142 0
+S 617.0.0 2146 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1808  1 _compress_isolated
+F 1194.0.0 3787 1
+S 1188.0.0 3770 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6473  1 _drc_features_q
+F 617.0.0 2146 0
+S 619.0.0 2153 0
+# mahmoodi.rcc.at.sfsu.edu(0):       443  1 _create_q
+F 619.0.0 2153 0
+S 620.0.0 2155 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2839  1 _level_one_q
+F 620.0.0 2155 0
+S 621.0.0 2159 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2103  1 _explode_rotation
+F 621.0.0 2159 0
+S 622.0.0 2162 0
+# mahmoodi.rcc.at.sfsu.edu(0):     35608  2 _fill_pattern
+F 1188.0.0 3770 1
+S 1182.0.0 3753 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1182.0.0 3753 1
+S 1176.0.0 3736 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1176.0.0 3736 1
+S 1170.0.0 3719 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 622.0.0 2162 0
+S 623.0.0 2166 0
+# mahmoodi.rcc.at.sfsu.edu(0):       236  1 _append_ref_interaction
+F 623.0.0 2166 0
+S 625.0.0 2170 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1848  1 _oversize_q
+F 1170.0.0 3719 1
+S 1164.0.0 3702 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 625.0.0 2170 0
+S 628.0.0 2178 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2185  1 _boolean_not_q
+F 628.0.0 2178 0
+S 629.0.0 2182 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1816  1 _compress_isolated
+F 629.0.0 2182 0
+S 631.0.0 2189 0
+# mahmoodi.rcc.at.sfsu.edu(0):       447  1 _create_q
+F 631.0.0 2189 0
+S 632.0.0 2191 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2843  1 _level_one_q
+F 1164.0.0 3702 1
+S 1158.0.0 3685 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 632.0.0 2191 0
+S 633.0.0 2195 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2105  1 _explode_rotation
+F 633.0.0 2195 0
+S 634.0.0 2198 0
+# mahmoodi.rcc.at.sfsu.edu(0):     35606  2 _fill_pattern
+F 1158.0.0 3685 1
+S 1152.0.0 3668 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1152.0.0 3668 1
+S 1146.0.0 3651 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 634.0.0 2198 0
+S 635.0.0 2202 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1224  1 _boolean_or_list
+F 635.0.0 2202 0
+S 838.0.0 2774 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1974  1 _flatten
+F 1146.0.0 3651 1
+S 1298.0.0 4086 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1715  1 _merge_hierarchies
+F 1298.0.0 4086 1
+S 1305.0.0 4108 1
+# mahmoodi.rcc.at.sfsu.edu(1):      1603  1 _find_ndm_output_resolution
+F 838.0.0 2774 0
+S 1140.0.0 3634 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1305.0.0 4108 1
+S 1134.0.0 3617 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1140.0.0 3634 0
+S 1128.0.0 3600 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1128.0.0 3600 0
+S 1122.0.0 3583 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1134.0.0 3617 1
+S 1116.0.0 3566 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1122.0.0 3583 0
+S 1110.0.0 3549 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1116.0.0 3566 1
+S 1104.0.0 3532 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1110.0.0 3549 0
+S 1098.0.0 3515 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1104.0.0 3532 1
+S 1092.0.0 3498 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1098.0.0 3515 0
+S 1086.0.0 3481 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1092.0.0 3498 1
+S 1080.0.0 3464 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1086.0.0 3481 0
+S 1074.0.0 3447 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1080.0.0 3464 1
+S 1068.0.0 3430 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1074.0.0 3447 0
+S 1062.0.0 3413 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1068.0.0 3430 1
+S 1056.0.0 3396 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1062.0.0 3413 0
+S 1050.0.0 3379 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1056.0.0 3396 1
+S 1044.0.0 3362 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1050.0.0 3379 0
+S 1038.0.0 3345 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1044.0.0 3362 1
+S 1032.0.0 3328 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1038.0.0 3345 0
+S 1026.0.0 3311 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1032.0.0 3328 1
+S 1020.0.0 3294 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1026.0.0 3311 0
+S 1014.0.0 3277 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1020.0.0 3294 1
+S 1008.0.0 3260 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 1014.0.0 3277 0
+S 1002.0.0 3243 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 1002.0.0 3243 0
+F 1008.0.0 3260 1
+S 996.0.0 3226 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+S 990.0.0 3209 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 996.0.0 3226 0
+S 984.0.0 3192 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 990.0.0 3209 1
+S 978.0.0 3175 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 984.0.0 3192 0
+S 972.0.0 3158 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 978.0.0 3175 1
+S 966.0.0 3141 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 972.0.0 3158 0
+S 960.0.0 3124 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6472  1 _drc_features_q
+F 966.0.0 3141 1
+S 954.0.0 3107 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6472  1 _drc_features_q
+F 960.0.0 3124 0
+S 948.0.0 3090 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6471  1 _drc_features_q
+F 954.0.0 3107 1
+S 942.0.0 3073 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6471  1 _drc_features_q
+F 948.0.0 3090 0
+S 936.0.0 3056 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6471  1 _drc_features_q
+F 942.0.0 3073 1
+S 930.0.0 3039 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6471  1 _drc_features_q
+F 936.0.0 3056 0
+S 924.0.0 3022 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6471  1 _drc_features_q
+F 930.0.0 3039 1
+S 918.0.0 3005 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6471  1 _drc_features_q
+F 924.0.0 3022 0
+S 912.0.0 2988 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6471  1 _drc_features_q
+F 918.0.0 3005 1
+S 906.0.0 2971 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6470  1 _drc_features_q
+F 912.0.0 2988 0
+S 900.0.0 2954 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6469  1 _drc_features_q
+F 906.0.0 2971 1
+S 894.0.0 2937 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6470  1 _drc_features_q
+F 900.0.0 2954 0
+S 888.0.0 2920 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6470  1 _drc_features_q
+F 894.0.0 2937 1
+S 882.0.0 2903 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6470  1 _drc_features_q
+F 888.0.0 2920 0
+S 876.0.0 2886 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6470  1 _drc_features_q
+F 882.0.0 2903 1
+S 870.0.0 2869 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6470  1 _drc_features_q
+F 876.0.0 2886 0
+S 864.0.0 2852 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6470  1 _drc_features_q
+F 870.0.0 2869 1
+S 858.0.0 2835 1
+# mahmoodi.rcc.at.sfsu.edu(1):      6470  1 _drc_features_q
+F 864.0.0 2852 0
+S 851.0.0 2813 0
+# mahmoodi.rcc.at.sfsu.edu(0):      6470  1 _drc_features_q
+F 858.0.0 2835 1
+S 340.0.0 1303 1
+# mahmoodi.rcc.at.sfsu.edu(1):      4691  1 _optimize_unmerged_layer_dp
+F 851.0.0 2813 0
+S 855.0.0 2827 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1296  1 _copy
+F 855.0.0 2827 0
+S 1296.0.0 4080 0
+# mahmoodi.rcc.at.sfsu.edu(0):      5520  1 _boolean_or_list
+F 340.0.0 1303 1
+S 737.0.0 2498 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2774  1 _boolean_or_list
+F 737.0.0 2498 1
+S 741.0.0 2510 1
+# mahmoodi.rcc.at.sfsu.edu(1):      2664  1 _remove_overlap
+F 741.0.0 2510 1
+S 1295.0.0 4077 1
+# mahmoodi.rcc.at.sfsu.edu(1):      5479  1 _boolean_or_list
+F 1296.0.0 4080 0
+S 1294.0.0 4074 0
+# mahmoodi.rcc.at.sfsu.edu(0):      5520  1 _boolean_or_list
+F 1294.0.0 4074 0
+S 1293.0.0 4071 0
+# mahmoodi.rcc.at.sfsu.edu(0):      5479  1 _boolean_or_list
+F 1295.0.0 4077 1
+S 1292.0.0 4068 1
+# mahmoodi.rcc.at.sfsu.edu(1):      5520  1 _boolean_or_list
+F 1293.0.0 4071 0
+S 1291.0.0 4065 0
+# mahmoodi.rcc.at.sfsu.edu(0):      5520  1 _boolean_or_list
+F 1292.0.0 4068 1
+S 1290.0.0 4062 1
+# mahmoodi.rcc.at.sfsu.edu(1):      5479  1 _boolean_or_list
+F 1291.0.0 4065 0
+S 1289.0.0 4059 0
+# mahmoodi.rcc.at.sfsu.edu(0):      5520  1 _boolean_or_list
+F 1290.0.0 4062 1
+S 1288.0.0 4056 1
+# mahmoodi.rcc.at.sfsu.edu(1):      5520  1 _boolean_or_list
+F 1289.0.0 4059 0
+S 1287.0.0 4053 0
+# mahmoodi.rcc.at.sfsu.edu(0):      5479  1 _boolean_or_list
+F 1288.0.0 4056 1
+S 1286.0.0 4050 1
+# mahmoodi.rcc.at.sfsu.edu(1):      5479  1 _boolean_or_list
+F 1287.0.0 4053 0
+S 1285.0.0 4047 0
+# mahmoodi.rcc.at.sfsu.edu(0):      5519  1 _boolean_or_list
+F 1286.0.0 4050 1
+S 1284.0.0 4044 1
+# mahmoodi.rcc.at.sfsu.edu(1):      5518  1 _boolean_or_list
+F 1285.0.0 4047 0
+S 1283.0.0 4041 0
+# mahmoodi.rcc.at.sfsu.edu(0):      5477  1 _boolean_or_list
+F 1284.0.0 4044 1
+S 1282.0.0 4038 1
+# mahmoodi.rcc.at.sfsu.edu(1):      5477  1 _boolean_or_list
+F 1283.0.0 4041 0
+S 1281.0.0 4035 0
+# mahmoodi.rcc.at.sfsu.edu(0):      5518  1 _boolean_or_list
+F 1282.0.0 4038 1
+S 1280.0.0 4032 1
+# mahmoodi.rcc.at.sfsu.edu(1):      5518  1 _boolean_or_list
+F 1281.0.0 4035 0
+S 1279.0.0 4029 0
+# mahmoodi.rcc.at.sfsu.edu(0):      5518  1 _boolean_or_list
+F 1280.0.0 4032 1
+S 1303.0.0 4096 1
+# mahmoodi.rcc.at.sfsu.edu(1):       213  1 _reform_group
+F 1279.0.0 4029 0
+S 1302.0.0 4094 0
+# mahmoodi.rcc.at.sfsu.edu(0):       213  1 _reform_group
+F 1303.0.0 4096 1
+S 1278.0.0 4026 1
+# mahmoodi.rcc.at.sfsu.edu(1):      5518  1 _boolean_or_list
+F 1302.0.0 4094 0
+S 1277.0.0 4023 0
+# mahmoodi.rcc.at.sfsu.edu(0):      5518  1 _boolean_or_list
+F 1278.0.0 4026 1
+S 1301.0.0 4092 1
+# mahmoodi.rcc.at.sfsu.edu(1):       213  1 _reform_group
+F 1277.0.0 4023 0
+S 1300.0.0 4090 0
+# mahmoodi.rcc.at.sfsu.edu(0):       213  1 _reform_group
+F 1301.0.0 4092 1
+S 1276.0.0 4020 1
+# mahmoodi.rcc.at.sfsu.edu(1):      5518  1 _boolean_or_list
+F 1300.0.0 4090 0
+S 339.0.0 1298 0
+# mahmoodi.rcc.at.sfsu.edu(0):      4588  1 _optimize_layer_dp
+F 1276.0.0 4020 1
+S 1299.0.0 4088 1
+# mahmoodi.rcc.at.sfsu.edu(1):       213  1 _reform_group
+F 1299.0.0 4088 1
+S 1308.0.0 4114 1
+# mahmoodi.rcc.at.sfsu.edu(1):      8481  1 _write_ndm
+F 339.0.0 1298 0
+S 653.0.0 2262 0
+# mahmoodi.rcc.at.sfsu.edu(0):      1024  1 _boolean_or
+F 653.0.0 2262 0
+S 738.0.0 2501 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2787  1 _boolean_not
+F 738.0.0 2501 0
+S 739.0.0 2504 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2662  1 _remove_overlap
+F 739.0.0 2504 0
+S 654.0.0 2265 0
+# mahmoodi.rcc.at.sfsu.edu(0):       878  1 _layer_extent
+F 654.0.0 2265 0
+S 740.0.0 2507 0
+# mahmoodi.rcc.at.sfsu.edu(0):      2785  1 _boolean_not
+F 740.0.0 2507 0
+S 825.0.0 2737 0
+# mahmoodi.rcc.at.sfsu.edu(0):      7338  1 _density_m
+F 825.0.0 2737 0
+S 743.0.0 2515 0
+# mahmoodi.rcc.at.sfsu.edu(0):      7314  1 _density_m
+F 743.0.0 2515 0
+F 0 0 0
+F 1308.0.0 4114 1
+S 1310.0.0 4117 0
+# mahmoodi.rcc.at.sfsu.edu(0):       385  1 _accumulate_results
+F 1310.0.0 4117 0
+}

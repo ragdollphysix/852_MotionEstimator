@@ -1,0 +1,5 @@
+[583832:2026-11-19 00:11:36.644] Starting service 'dashboard_mail' (Node ID=0, Host Name=mahmoodi.rcc.at.sfsu.edu)
+[583832:2026-11-19 00:11:36.647] [ev_dash_mail] The run detail dir path: /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/run_details.
+[583832:2026-11-19 00:11:43.014] [ev_dash_mail] Dashboard Mail service is about to stop.
+[583832:2026-11-19 00:11:43.014] [ev_dash_mail] The email config file path: /home/924317222/Assignments/FinalProject/signoff_fix_drc_run/top_ADR/run_details/dashboard.email/icv_dashboard.conf.
+[583832:2026-11-19 00:11:43.014] [ev_dash_mail] The email configuration of dashboard is NO_EMAIL.

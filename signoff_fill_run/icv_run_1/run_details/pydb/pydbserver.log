@@ -1,0 +1,89 @@
+
+                                  PYDB_Server 
+
+           Version W-2024.09-3 for linux64 - Oct 28, 2024 cl#10932488
+
+                    Copyright (c) 2007 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Listening for connections on port 59151
+PYDB_Server Started on host mahmoodi.rcc.at.sfsu.edu, Thu 11/19/2026 00:12:10
+Client mahmoodi.rcc.at.sfsu.edu(586108):25 connected (1 total client)
+Verified current licenses.
+Creating file:/home/924317222/Assignments/FinalProject/signoff_fill_run/icv_run_1/run_details/pydb/PYDB_top?nolock=1
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Client mahmoodi.rcc.at.sfsu.edu(586304):32 connected (2 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(586302):33 connected (3 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(586304):32 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(586304):32 disconnected (2 clients remain)
+Client mahmoodi.rcc.at.sfsu.edu(586304):32 connected (3 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(586302):33 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(586302):33 disconnected (2 clients remain)
+Client mahmoodi.rcc.at.sfsu.edu(586302):33 connected (3 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(586304):32 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(586304):32 disconnected (2 clients remain)
+Client mahmoodi.rcc.at.sfsu.edu(586304):32 connected (3 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(586304):32 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(586304):32 disconnected (2 clients remain)
+Client mahmoodi.rcc.at.sfsu.edu(586302):33 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(586302):33 disconnected (1 client remains)
+Client mahmoodi.rcc.at.sfsu.edu(586304):32 connected (2 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(586302):33 connected (3 total clients)
+Begin error insertion: /home/924317222/Assignments/FinalProject/common/runsets/saed14nm_1p9m_mfill_rules.rs:162:density
+Error insertion complete: /home/924317222/Assignments/FinalProject/common/runsets/saed14nm_1p9m_mfill_rules.rs:162:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.008 GB Unpooled=0.000 GB
+Begin error insertion: /home/924317222/Assignments/FinalProject/common/runsets/Include/ME3_14.rs:17:density
+Error insertion complete: /home/924317222/Assignments/FinalProject/common/runsets/Include/ME3_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.008 GB Unpooled=0.000 GB
+Begin error insertion: /home/924317222/Assignments/FinalProject/common/runsets/Include/ME2_14.rs:17:density
+Error insertion complete: /home/924317222/Assignments/FinalProject/common/runsets/Include/ME2_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.008 GB Unpooled=0.000 GB
+Begin error insertion: /home/924317222/Assignments/FinalProject/common/runsets/Include/ME4_14.rs:17:density
+Error insertion complete: /home/924317222/Assignments/FinalProject/common/runsets/Include/ME4_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.008 GB Unpooled=0.000 GB
+Begin error insertion: /home/924317222/Assignments/FinalProject/common/runsets/Include/ME5_14.rs:17:density
+Error insertion complete: /home/924317222/Assignments/FinalProject/common/runsets/Include/ME5_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.008 GB Unpooled=0.000 GB
+Begin error insertion: /home/924317222/Assignments/FinalProject/common/runsets/Include/ME6_14.rs:17:density
+Error insertion complete: /home/924317222/Assignments/FinalProject/common/runsets/Include/ME6_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.008 GB Unpooled=0.000 GB
+Begin error insertion: /home/924317222/Assignments/FinalProject/common/runsets/Include/ME7_14.rs:17:density
+Error insertion complete: /home/924317222/Assignments/FinalProject/common/runsets/Include/ME7_14.rs:17:density
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.008 GB Unpooled=0.000 GB
+Client mahmoodi.rcc.at.sfsu.edu(586302):33 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(586302):33 disconnected (2 clients remain)
+Client mahmoodi.rcc.at.sfsu.edu(586302):33 connected (3 total clients)
+Client mahmoodi.rcc.at.sfsu.edu(586302):33 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(586304):32 connection closed
+Client mahmoodi.rcc.at.sfsu.edu(586302):33 disconnected (2 clients remain)
+Client mahmoodi.rcc.at.sfsu.edu(586304):32 disconnected (1 client remains)
+ Total error insertion Time=0:00:03  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.008 GB Unpooled=0.000 GB
+  Total Commands: 7
+  Total Errors: 166
+  Avg Time/Cmd: Wall=0 User=0.00 Sys=0.00 Mem=0.001 GB
+Generating /home/924317222/Assignments/FinalProject/signoff_fill_run/icv_run_1/top.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+Flushing database cache
+  Flush Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.008 GB Unpooled=0.000 GB
+Shutdown requested by client mahmoodi.rcc.at.sfsu.edu(586108):25
+0 clients remain connected
+Client mahmoodi.rcc.at.sfsu.edu(586108):25 connection closed
+Overall server Time=0:00:04  User=0.02 Sys=0.02 Mem=0.001 GB SQLite=0.008 GB Unpooled=0.000 GB
