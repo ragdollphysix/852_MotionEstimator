@@ -22,3 +22,12 @@ signoff_drc_run/
 signoff_report_density_run/
 pt_session/
 work*/
+starrc.log
+star/
+results/top_supply.spf
+starrc_supply.cmd
+starrc_out/
+top.gpd/
+top.star_sum
+.nodeIdDynamicRanges
+.tech_file.lock
